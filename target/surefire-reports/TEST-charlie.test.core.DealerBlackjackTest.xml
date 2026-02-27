@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="charlie.test.core.DealerBlackjackTest" time="4.239" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Charlie\target\test-classes;C:\Charlie\target\classes;C:\Users\jenie\.m2\repository\org\slf4j\slf4j-simple\1.7.32\slf4j-simple-1.7.32.jar;C:\Users\jenie\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\jenie\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\jenie\.m2\repository\org\jboss\netty\netty\3.2.4.Final\netty-3.2.4.Final.jar;C:\Users\jenie\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\jenie\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\jenie\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\jenie\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\jenie\.m2\repository\org\swinglabs\swing-layout\1.0.3\swing-layout-1.0.3.jar;C:\Users\jenie\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\jenie\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\jenie\AppData\Local\Temp\surefire14827044544421948940\surefirebooter-20260204164239655_3.jar C:\Users\jenie\AppData\Local\Temp\surefire14827044544421948940 2026-02-04T16-42-39_409-jvmRun1 surefire-20260204164239655_1tmp surefire_0-20260204164239655_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Charlie\target\test-classes;C:\Charlie\target\classes;C:\Users\jenie\.m2\repository\org\slf4j\slf4j-simple\1.7.32\slf4j-simple-1.7.32.jar;C:\Users\jenie\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\jenie\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\jenie\.m2\repository\org\jboss\netty\netty\3.2.4.Final\netty-3.2.4.Final.jar;C:\Users\jenie\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\jenie\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\jenie\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\jenie\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\jenie\.m2\repository\org\swinglabs\swing-layout\1.0.3\swing-layout-1.0.3.jar;C:\Users\jenie\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\jenie\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\jenie"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Charlie"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\jenie\AppData\Local\Temp\surefire14827044544421948940\surefirebooter-20260204164239655_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.2+10-LTS-69"/>
+    <property name="user.name" value="jenie"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="IBM437"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="localRepository" value="C:\Users\jenie\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\jenie\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2025.3.2"/>
+    <property name="java.version" value="25.0.2"/>
+    <property name="user.dir" value="C:\Charlie"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\mingw64\bin;C:\mingw64;C:\Program Files\nodejs\;C:\Users\jenie\AppData\Local\Microsoft\WindowsApps;C:\Users\jenie\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jenie\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\jenie\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jdk-24\bin;C:\Users\jenie\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\jenie\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.2+10-LTS-69"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="C:\Users\jenie\.m2\repository"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="test" classname="charlie.test.core.DealerBlackjackTest" time="4.045">
+    <system-out><![CDATA[charlie properties path = charlie.props
+game server started
+instantiating house
+house host = 127.0.0.1:1235
+house successfully started
+House waiting for connection on port 1235
+got login
+sent login request
+validated ticket BB20B45FD4D95138 login successful!
+ServerAuthenticator sent ticket to client
+received ticket BB20B45FD4D95138
+DealerBlackjackTest connecting to server
+DealerBlackjackTest courier started
+Courier waiting for connection on port 8001
+Arriver sending Arrival to 127.0.0.1:1235
+House accepted connection on port 1235
+Arriver sent successfully Arrival to 127.0.0.1:1235
+Arriver sent arrival message
+DealerBlackjackTest we ARRIVED!
+DealerBlackjackTest waiting for server READY...
+House received message Arrival
+House invoking listener for Arrival
+validated ticket = BB20B45FD4D95138
+arrival from host = JennaLaptop/148.100.137.167
+using default dealer = charlie.dealer.Dealer
+shoe property 'charlie.shoe' = 'charlie.test.shoe.UserBJShoe'
+shoe: charlie.test.shoe.UserBJShoe: SA D7 SJ D7 C9 H6 C4 C8 CJ 
+RealPlayer sending Ready to 148.100.137.167:8001
+RealPlayer waiting for connection on port 8501
+Courier accepted connection on port 8001
+RealPlayer sent successfully Ready to 148.100.137.167:8001
+House waiting for connection on port 1235
+Courier received message Ready
+Courier invoking listener for Ready
+received Ready from JennaLaptop/148.100.137.167
+Courier waiting for connection on port 8001
+DealerBlackjackTest server READY !
+Courier sending Bet to 127.0.0.1:8501
+RealPlayer accepted connection on port 8501
+Courier sent successfully Bet to 127.0.0.1:8501
+DealerBlackjackTest bet amt: 5, side bet: 0
+DealerBlackjackTest checking if blackjack was detected...
+DealerBlackjackTest FAILURE: Blackjack was not detected!
+DealerBlackjackTest waiting ENDING...
+RealPlayer received message Bet
+RealPlayer invoking listener for Bet
+RealPlayer received bet = 5.0
+got new bet = 5.0 side bet = 0.0 from JennaLaptop/148.100.137.167 for hid = JennaLaptop:YOU:2F38825323FA16D0
+no bot configured for charlie.bot.huey
+no bot configured for charlie.bot.dewey
+starting a game
+hands at table + dealer = 2
+RealPlayer sending GameStart to 148.100.137.167:8001
+Courier accepted connection on port 8001
+RealPlayer sent successfully GameStart to 148.100.137.167:8001
+Courier received message GameStart
+Courier invoking listener for GameStart
+receive starting shoe size = 9
+starting hand: JennaLaptop:YOU:2F38825323FA16D0
+starting hand: JennaLaptop:DEALER:4BE52459C0CF8B42
+DealerBlackjackTest game STARTING: JennaLaptop:YOU:2F38825323FA16D0, JennaLaptop:DEALER:4BE52459C0CF8B42,  shoe size: 9
+Courier waiting for connection on port 8001
+cards size = 9 burn index = 2147483647 index = 0
+dealing to JennaLaptop/148.100.137.167 card 1 = SA
+RealPlayer sending Deal to 148.100.137.167:8001
+Courier accepted connection on port 8001
+RealPlayer sent successfully Deal to 148.100.137.167:8001
+cards size = 9 burn index = 2147483647 index = 1
+Courier received message Deal
+Courier invoking listener for Deal
+received card = SA values = 1/11 hid = JennaLaptop:YOU:2F38825323FA16D0
+DealerBlackjackTest DEAL: JennaLaptop:YOU:2F38825323FA16D0 card: SA hand values: 1, 11
+Courier waiting for connection on port 8001
+RealPlayer sending Deal to 148.100.137.167:8001
+Courier accepted connection on port 8001
+RealPlayer sent successfully Deal to 148.100.137.167:8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D7 values = 0/0 hid = JennaLaptop:DEALER:4BE52459C0CF8B42
+DealerBlackjackTest DEAL: JennaLaptop:DEALER:4BE52459C0CF8B42 card: D7 hand values: 0, 0
+Courier waiting for connection on port 8001
+cards size = 9 burn index = 2147483647 index = 2
+dealing to JennaLaptop/148.100.137.167 card 1 = SJ
+RealPlayer sending Deal to 148.100.137.167:8001
+Courier accepted connection on port 8001
+RealPlayer sent successfully Deal to 148.100.137.167:8001
+RealPlayer sending Blackjack to 148.100.137.167:8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = SJ values = 11/21 hid = JennaLaptop:YOU:2F38825323FA16D0
+DealerBlackjackTest DEAL: JennaLaptop:YOU:2F38825323FA16D0 card: SJ hand values: 11, 21
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+RealPlayer sent successfully Blackjack to 148.100.137.167:8001
+cards size = 9 burn index = 2147483647 index = 3
+Courier received message Blackjack
+Courier invoking listener for Blackjack
+received outcome = Blackjack
+DealerBlackjackTest BLACKJACK: JennaLaptop:YOU:2F38825323FA16D0
+Courier waiting for connection on port 8001
+RealPlayer sending Deal to 148.100.137.167:8001
+Courier accepted connection on port 8001
+RealPlayer sent successfully Deal to 148.100.137.167:8001
+hand sequence index = 0 hand sequence size = 1
+active player = JennaLaptop/148.100.137.167
+hand sequence index = 1 hand sequence size = 1
+RealPlayer sending Play to 148.100.137.167:8001
+Courier received message Deal
+Courier invoking listener for Deal
+received card = D7 values = 7/7 hid = JennaLaptop:DEALER:4BE52459C0CF8B42
+DealerBlackjackTest DEAL: JennaLaptop:DEALER:4BE52459C0CF8B42 card: D7 hand values: 7, 7
+Courier waiting for connection on port 8001
+RealPlayer sent successfully Play to 148.100.137.167:8001
+Courier accepted connection on port 8001
+RealPlayer sending Deal to 148.100.137.167:8001
+Courier received message Play
+Courier invoking listener for Play
+got turn = JennaLaptop:DEALER:4BE52459C0CF8B42
+Courier waiting for connection on port 8001
+RealPlayer sent successfully Deal to 148.100.137.167:8001
+RealPlayer sending GameOver to 148.100.137.167:8001
+Courier accepted connection on port 8001
+RealPlayer sent successfully GameOver to 148.100.137.167:8001
+RealPlayer waiting for connection on port 8501
+Courier received message Deal
+Courier invoking listener for Deal
+received card = null values = 14/14 hid = JennaLaptop:DEALER:4BE52459C0CF8B42
+DealerBlackjackTest DEAL: JennaLaptop:DEALER:4BE52459C0CF8B42 card: null hand values: 14, 14
+Courier waiting for connection on port 8001
+Courier accepted connection on port 8001
+Courier received message GameOver
+Courier invoking listener for GameOver
+received ending shoe size = 5
+DealerBlackjackTest ENDING game shoe size: 5
+DealerBlackjackTest TOTAL WINNINGS: $7.5
+Courier waiting for connection on port 8001
+DealerBlackjackTest DONE!
+DealerBlackjackTest DEALER has blackjack!
+DealerBlackjackTest Dealer Blackjack Test SUCCESSFUL
+]]></system-out>
+  </testcase>
+</testsuite>
