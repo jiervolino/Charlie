@@ -1,123 +1,728 @@
-13:25:17 INFO  main 0 GameServer:63 - charlie properties path = charlie.props
-13:25:17 INFO  main 3 GameServer:69 - game server started
-13:25:17 INFO  main 4 GameServer:76 - instantiating house
-13:25:17 INFO  main 7 House:62 - house host = 127.0.0.1:1235
-13:25:17 INFO  main 7 GameServer:83 - house successfully started
-13:25:17 INFO  Thread-0 14 Actor:185 - House waiting for connection on port 1235
-13:25:49 INFO  main 31466 ServerAuthenticator:78 - got login
-13:25:49 INFO  main 31468 ServerAuthenticator:83 - validated ticket BB20B45FD4D95138 login successful!
-13:25:49 INFO  main 31470 Actor:185 - ServerAuthenticator sent ticket to client
-13:25:49 INFO  Thread-0 31491 Actor:185 - House accepted connection on port 1235
-13:25:49 INFO  Thread-0 31496 Actor:185 - House received message Arrival
-13:25:49 INFO  Thread-0 31496 Actor:185 - House invoking listener for Arrival
-13:25:49 INFO  Thread-0 31496 House:107 - validated ticket = BB20B45FD4D95138
-13:25:49 INFO  Thread-0 31497 House:111 - arrival from host = JennaLaptop/148.100.130.241
-13:25:49 INFO  Thread-0 31499 House:144 - using default dealer = charlie.dealer.Dealer
-13:25:49 INFO  Thread-0 31501 Dealer:90 - shoe property 'charlie.shoe' = 'jenna.plugin.MyShoe02'
-13:25:49 INFO  Thread-0 31505 Dealer:96 - shoe: jenna.plugin.MyShoe02: S2 HQ H3 C7 S4 C5 D6 CK D9 CJ 
-13:25:49 INFO  Thread-0 31518 Actor:185 - RealPlayer sending Ready to 148.100.130.241:8001
-13:25:49 INFO  Thread-1 31521 Actor:185 - RealPlayer waiting for connection on port 8501
-13:25:49 INFO  Thread-0 31522 Actor:185 - RealPlayer sent successfully Ready to 148.100.130.241:8001
-13:25:49 INFO  Thread-0 31522 Actor:185 - House waiting for connection on port 1235
-13:25:57 INFO  Thread-1 40083 Actor:185 - RealPlayer accepted connection on port 8501
-13:25:57 INFO  Thread-1 40106 Actor:185 - RealPlayer received message Bet
-13:25:57 INFO  Thread-1 40107 Actor:185 - RealPlayer invoking listener for Bet
-13:25:57 INFO  Thread-1 40110 Actor:185 - RealPlayer received bet = 25.0
-13:25:57 INFO  Thread-1 40118 Dealer:108 - got new bet = 25.0 side bet = 0.0 from JennaLaptop/148.100.130.241 for hid = JennaLaptop:YOU:272FC62545BC05ED
-13:25:57 INFO  Thread-1 40119 Dealer:163 - no bot configured for charlie.bot.huey
-13:25:57 INFO  Thread-1 40121 Dealer:163 - no bot configured for charlie.bot.dewey
-13:25:57 INFO  Thread-1 40121 Dealer:257 - starting a game
-13:25:57 INFO  Thread-1 40122 Dealer:272 - hands at table + dealer = 2
-13:25:57 INFO  Thread-1 40122 Actor:185 - RealPlayer sending GameStart to 148.100.130.241:8001
-13:25:57 INFO  Thread-1 40127 Actor:185 - RealPlayer sent successfully GameStart to 148.100.130.241:8001
-13:25:58 INFO  Thread-1 40382 Shoe:112 - cards size = 10 burn index = 2147483647 index = 0
-13:25:58 INFO  Thread-1 40386 Shoe:136 - index = 1 burnIndex = 2147483647 shuffle needed = false
-13:25:58 INFO  Thread-1 40386 Dealer:351 - dealing to JennaLaptop/148.100.130.241 card 1 = S2
-13:25:58 INFO  Thread-1 41137 Actor:185 - RealPlayer sending Deal to 148.100.130.241:8001
-13:25:58 INFO  Thread-1 41145 Actor:185 - RealPlayer sent successfully Deal to 148.100.130.241:8001
-13:25:58 INFO  Thread-1 41146 Shoe:112 - cards size = 10 burn index = 2147483647 index = 1
-13:25:58 INFO  Thread-1 41146 Shoe:136 - index = 2 burnIndex = 2147483647 shuffle needed = false
-13:25:59 INFO  Thread-1 41899 Actor:185 - RealPlayer sending Deal to 148.100.130.241:8001
-13:25:59 INFO  Thread-1 41906 Actor:185 - RealPlayer sent successfully Deal to 148.100.130.241:8001
-13:25:59 INFO  Thread-1 41907 Shoe:112 - cards size = 10 burn index = 2147483647 index = 2
-13:25:59 INFO  Thread-1 41907 Shoe:136 - index = 3 burnIndex = 2147483647 shuffle needed = false
-13:25:59 INFO  Thread-1 41908 Dealer:351 - dealing to JennaLaptop/148.100.130.241 card 1 = H3
-13:26:00 INFO  Thread-1 42660 Actor:185 - RealPlayer sending Deal to 148.100.130.241:8001
-13:26:00 INFO  Thread-1 42667 Actor:185 - RealPlayer sent successfully Deal to 148.100.130.241:8001
-13:26:00 INFO  Thread-1 42668 Shoe:112 - cards size = 10 burn index = 2147483647 index = 3
-13:26:00 INFO  Thread-1 42669 Shoe:136 - index = 4 burnIndex = 2147483647 shuffle needed = false
-13:26:01 INFO  Thread-1 43421 Actor:185 - RealPlayer sending Deal to 148.100.130.241:8001
-13:26:01 INFO  Thread-1 43429 Actor:185 - RealPlayer sent successfully Deal to 148.100.130.241:8001
-13:26:01 INFO  Thread-1 43430 Dealer:586 - hand sequence index = 0 hand sequence size = 1
-13:26:01 INFO  Thread-1 43431 Dealer:596 - active player = JennaLaptop/148.100.130.241
-13:26:01 INFO  Thread-1 43432 Dealer:636 - sending turn JennaLaptop:YOU:272FC62545BC05ED to JennaLaptop/148.100.130.241
-13:26:01 INFO  Thread-1 43432 Actor:185 - RealPlayer sending Play to 148.100.130.241:8001
-13:26:01 INFO  Thread-1 43435 Actor:185 - RealPlayer sent successfully Play to 148.100.130.241:8001
-13:26:01 INFO  Thread-1 43435 Actor:185 - RealPlayer waiting for connection on port 8501
-13:26:02 INFO  Thread-1 44442 Actor:185 - RealPlayer accepted connection on port 8501
-13:26:02 INFO  Thread-1 44449 Actor:185 - RealPlayer received message Hit
-13:26:02 INFO  Thread-1 44449 Actor:185 - RealPlayer invoking listener for Hit
-13:26:02 INFO  Thread-1 44450 Actor:185 - RealPlayer received request = Hit
-13:26:02 INFO  Thread-1 44450 Shoe:112 - cards size = 10 burn index = 2147483647 index = 4
-13:26:02 INFO  Thread-1 44451 Shoe:136 - index = 5 burnIndex = 2147483647 shuffle needed = false
-13:26:02 INFO  Thread-1 44451 Dealer:402 - hit hid = JennaLaptop:YOU:272FC62545BC05ED with S4
-13:26:02 INFO  Thread-1 44452 Actor:185 - RealPlayer sending Deal to 148.100.130.241:8001
-13:26:02 INFO  Thread-1 44455 Actor:185 - RealPlayer sent successfully Deal to 148.100.130.241:8001
-13:26:02 INFO  Thread-1 44456 Actor:185 - RealPlayer waiting for connection on port 8501
-13:26:03 INFO  Thread-1 45649 Actor:185 - RealPlayer accepted connection on port 8501
-13:26:03 INFO  Thread-1 45653 Actor:185 - RealPlayer received message Hit
-13:26:03 INFO  Thread-1 45653 Actor:185 - RealPlayer invoking listener for Hit
-13:26:03 INFO  Thread-1 45653 Actor:185 - RealPlayer received request = Hit
-13:26:03 INFO  Thread-1 45654 Shoe:112 - cards size = 10 burn index = 2147483647 index = 5
-13:26:03 INFO  Thread-1 45654 Shoe:136 - index = 6 burnIndex = 2147483647 shuffle needed = false
-13:26:03 INFO  Thread-1 45654 Dealer:402 - hit hid = JennaLaptop:YOU:272FC62545BC05ED with C5
-13:26:03 INFO  Thread-1 45654 Actor:185 - RealPlayer sending Deal to 148.100.130.241:8001
-13:26:03 INFO  Thread-1 45658 Actor:185 - RealPlayer sent successfully Deal to 148.100.130.241:8001
-13:26:03 INFO  Thread-1 45659 Actor:185 - RealPlayer waiting for connection on port 8501
-13:26:04 INFO  Thread-1 46725 Actor:185 - RealPlayer accepted connection on port 8501
-13:26:04 INFO  Thread-1 46729 Actor:185 - RealPlayer received message Hit
-13:26:04 INFO  Thread-1 46730 Actor:185 - RealPlayer invoking listener for Hit
-13:26:04 INFO  Thread-1 46730 Actor:185 - RealPlayer received request = Hit
-13:26:04 INFO  Thread-1 46731 Shoe:112 - cards size = 10 burn index = 2147483647 index = 6
-13:26:04 INFO  Thread-1 46731 Shoe:136 - index = 7 burnIndex = 2147483647 shuffle needed = false
-13:26:04 INFO  Thread-1 46731 Dealer:402 - hit hid = JennaLaptop:YOU:272FC62545BC05ED with D6
-13:26:04 INFO  Thread-1 46731 Actor:185 - RealPlayer sending Deal to 148.100.130.241:8001
-13:26:04 INFO  Thread-1 46733 Actor:185 - RealPlayer sent successfully Deal to 148.100.130.241:8001
-13:26:04 INFO  Thread-1 46733 Actor:185 - RealPlayer sending Charlie to 148.100.130.241:8001
-13:26:04 INFO  Thread-1 46735 Actor:185 - RealPlayer sent successfully Charlie to 148.100.130.241:8001
-13:26:04 INFO  Thread-1 46735 Dealer:586 - hand sequence index = 1 hand sequence size = 1
-13:26:04 INFO  Thread-1 46735 Actor:185 - RealPlayer sending Play to 148.100.130.241:8001
-13:26:04 INFO  Thread-1 46736 Actor:185 - RealPlayer sent successfully Play to 148.100.130.241:8001
-13:26:04 INFO  Thread-1 46737 Actor:185 - RealPlayer sending Deal to 148.100.130.241:8001
-13:26:04 INFO  Thread-1 46738 Actor:185 - RealPlayer sent successfully Deal to 148.100.130.241:8001
-13:26:04 INFO  Thread-1 46738 Actor:185 - RealPlayer sending GameOver to 148.100.130.241:8001
-13:26:04 INFO  Thread-1 46740 Actor:185 - RealPlayer sent successfully GameOver to 148.100.130.241:8001
-13:26:04 INFO  Thread-1 46740 Actor:185 - RealPlayer waiting for connection on port 8501
-13:26:08 INFO  Thread-1 50512 Actor:185 - RealPlayer accepted connection on port 8501
-13:26:08 INFO  Thread-1 50516 Actor:185 - RealPlayer received message Bet
-13:26:08 INFO  Thread-1 50517 Actor:185 - RealPlayer invoking listener for Bet
-13:26:08 INFO  Thread-1 50517 Actor:185 - RealPlayer received bet = 25.0
-13:26:08 INFO  Thread-1 50517 Dealer:108 - got new bet = 25.0 side bet = 0.0 from JennaLaptop/148.100.130.241 for hid = JennaLaptop:YOU:2073CFC085BBF9BD
-13:26:08 INFO  Thread-1 50518 Dealer:163 - no bot configured for charlie.bot.huey
-13:26:08 INFO  Thread-1 50518 Dealer:163 - no bot configured for charlie.bot.dewey
-13:26:08 INFO  Thread-1 50518 Dealer:257 - starting a game
-13:26:08 INFO  Thread-1 50518 Dealer:272 - hands at table + dealer = 2
-13:26:08 INFO  Thread-1 50519 Actor:185 - RealPlayer sending GameStart to 148.100.130.241:8001
-13:26:08 INFO  Thread-1 50522 Actor:185 - RealPlayer sent successfully GameStart to 148.100.130.241:8001
-13:26:08 INFO  Thread-1 50773 Shoe:112 - cards size = 10 burn index = 2147483647 index = 7
-13:26:08 INFO  Thread-1 50773 Shoe:136 - index = 8 burnIndex = 2147483647 shuffle needed = false
-13:26:08 INFO  Thread-1 50773 Dealer:351 - dealing to JennaLaptop/148.100.130.241 card 1 = CK
-13:26:09 INFO  Thread-1 51525 Actor:185 - RealPlayer sending Deal to 148.100.130.241:8001
-13:26:09 INFO  Thread-1 51529 Actor:185 - RealPlayer sent successfully Deal to 148.100.130.241:8001
-13:26:09 INFO  Thread-1 51530 Shoe:112 - cards size = 10 burn index = 2147483647 index = 8
-13:26:09 INFO  Thread-1 51530 Shoe:136 - index = 9 burnIndex = 2147483647 shuffle needed = false
-13:26:09 INFO  Thread-1 52283 Actor:185 - RealPlayer sending Deal to 148.100.130.241:8001
-13:26:09 INFO  Thread-1 52287 Actor:185 - RealPlayer sent successfully Deal to 148.100.130.241:8001
-13:26:09 INFO  Thread-1 52287 Shoe:112 - cards size = 10 burn index = 2147483647 index = 9
-13:26:09 INFO  Thread-1 52287 Shoe:136 - index = 10 burnIndex = 2147483647 shuffle needed = false
-13:26:09 INFO  Thread-1 52288 Dealer:351 - dealing to JennaLaptop/148.100.130.241 card 1 = CJ
-13:26:10 INFO  Thread-1 53039 Actor:185 - RealPlayer sending Deal to 148.100.130.241:8001
-13:26:10 INFO  Thread-1 53045 Actor:185 - RealPlayer sent successfully Deal to 148.100.130.241:8001
-13:26:10 INFO  Thread-1 53045 Shoe:112 - cards size = 10 burn index = 2147483647 index = 10
-13:26:10 ERROR Thread-1 53046 Shoe:115 - shoe empty!
-13:26:10 INFO  Thread-1 53047 Shoe:136 - index = 10 burnIndex = 2147483647 shuffle needed = false
+12:23:28 INFO  main 0 GameServer:63 - charlie properties path = charlie.props
+12:23:28 INFO  main 4 GameServer:69 - game server started
+12:23:28 INFO  main 4 GameServer:76 - instantiating house
+12:23:28 INFO  main 7 House:62 - house host = 127.0.0.1:1235
+12:23:28 INFO  main 7 GameServer:83 - house successfully started
+12:23:28 INFO  Thread-0 11 Actor:185 - House waiting for connection on port 1235
+12:23:47 INFO  main 18558 ServerAuthenticator:78 - got login
+12:23:47 INFO  main 18561 ServerAuthenticator:83 - validated ticket BB20B45FD4D95138 login successful!
+12:23:47 INFO  main 18563 Actor:185 - ServerAuthenticator sent ticket to client
+12:23:47 INFO  Thread-0 18581 Actor:185 - House accepted connection on port 1235
+12:23:47 INFO  Thread-0 18587 Actor:185 - House received message Arrival
+12:23:47 INFO  Thread-0 18588 Actor:185 - House invoking listener for Arrival
+12:23:47 INFO  Thread-0 18588 House:107 - validated ticket = BB20B45FD4D95138
+12:23:47 INFO  Thread-0 18588 House:111 - arrival from host = JennaLaptop/192.168.1.22
+12:23:47 INFO  Thread-0 18592 House:144 - using default dealer = charlie.dealer.Dealer
+12:23:47 INFO  Thread-0 18596 Dealer:90 - shoe property 'charlie.shoe' = 'charlie.shoe.Shoe01'
+12:23:47 INFO  Thread-0 18603 Shoe:103 - shuffling burn index = 35
+12:23:47 INFO  Thread-0 18606 Dealer:96 - shoe: charlie.shoe.Shoe01: S2 D3 D9 C4 CA C8 CK DA S8 H6 HQ H4 HA HK S9 
+12:23:47 INFO  Thread-0 18637 Actor:185 - RealPlayer sending Ready to 192.168.1.22:8001
+12:23:47 INFO  Thread-1 18638 Actor:185 - RealPlayer waiting for connection on port 8501
+12:23:47 INFO  Thread-0 18643 Actor:185 - RealPlayer sent successfully Ready to 192.168.1.22:8001
+12:23:47 INFO  Thread-0 18643 Actor:185 - House waiting for connection on port 1235
+12:23:54 INFO  Thread-1 26305 Actor:185 - RealPlayer accepted connection on port 8501
+12:23:54 INFO  Thread-1 26316 Actor:185 - RealPlayer received message Bet
+12:23:54 INFO  Thread-1 26316 Actor:185 - RealPlayer invoking listener for Bet
+12:23:54 INFO  Thread-1 26319 Actor:185 - RealPlayer received bet = 100.0
+12:23:54 INFO  Thread-1 26324 Dealer:108 - got new bet = 100.0 side bet = 0.0 from JennaLaptop/192.168.1.22 for hid = JennaLaptop:YOU:2276E59F806B83E3
+12:23:54 INFO  Thread-1 26325 Dealer:163 - no bot configured for charlie.bot.huey
+12:23:54 INFO  Thread-1 26327 Dealer:163 - no bot configured for charlie.bot.dewey
+12:23:54 INFO  Thread-1 26327 Dealer:257 - starting a game
+12:23:54 INFO  Thread-1 26328 Dealer:272 - hands at table + dealer = 2
+12:23:54 INFO  Thread-1 26328 Actor:185 - RealPlayer sending GameStart to 192.168.1.22:8001
+12:23:54 INFO  Thread-1 26333 Actor:185 - RealPlayer sent successfully GameStart to 192.168.1.22:8001
+12:23:55 INFO  Thread-1 26592 Shoe:112 - cards size = 52 burn index = 35 index = 0
+12:23:55 INFO  Thread-1 26598 Shoe:136 - index = 1 burnIndex = 35 shuffle needed = false
+12:23:55 INFO  Thread-1 26599 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = S2
+12:23:55 INFO  Thread-1 27350 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:23:55 INFO  Thread-1 27358 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:23:55 INFO  Thread-1 27358 Shoe:112 - cards size = 52 burn index = 35 index = 1
+12:23:55 INFO  Thread-1 27358 Shoe:136 - index = 2 burnIndex = 35 shuffle needed = false
+12:23:56 INFO  Thread-1 28112 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:23:56 INFO  Thread-1 28115 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:23:56 INFO  Thread-1 28115 Shoe:112 - cards size = 52 burn index = 35 index = 2
+12:23:56 INFO  Thread-1 28115 Shoe:136 - index = 3 burnIndex = 35 shuffle needed = false
+12:23:56 INFO  Thread-1 28115 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = D9
+12:23:57 INFO  Thread-1 28866 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:23:57 INFO  Thread-1 28868 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:23:57 INFO  Thread-1 28868 Shoe:112 - cards size = 52 burn index = 35 index = 3
+12:23:57 INFO  Thread-1 28868 Shoe:136 - index = 4 burnIndex = 35 shuffle needed = false
+12:23:58 INFO  Thread-1 29620 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:23:58 INFO  Thread-1 29622 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:23:58 INFO  Thread-1 29622 Dealer:586 - hand sequence index = 0 hand sequence size = 1
+12:23:58 INFO  Thread-1 29622 Dealer:596 - active player = JennaLaptop/192.168.1.22
+12:23:58 INFO  Thread-1 29623 Dealer:636 - sending turn JennaLaptop:YOU:2276E59F806B83E3 to JennaLaptop/192.168.1.22
+12:23:58 INFO  Thread-1 29623 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:23:58 INFO  Thread-1 29626 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:23:58 INFO  Thread-1 29627 Actor:185 - RealPlayer waiting for connection on port 8501
+12:24:24 INFO  Thread-1 55957 Actor:185 - RealPlayer accepted connection on port 8501
+12:24:24 INFO  Thread-1 55963 Actor:185 - RealPlayer received message DoubleDown
+12:24:24 INFO  Thread-1 55963 Actor:185 - RealPlayer invoking listener for DoubleDown
+12:24:24 INFO  Thread-1 55964 Actor:185 - RealPlayer received request = DoubleDown
+12:24:24 INFO  Thread-1 55964 Dealer:480 - got double-down request
+12:24:24 INFO  Thread-1 55964 Shoe:112 - cards size = 52 burn index = 35 index = 4
+12:24:24 INFO  Thread-1 55964 Shoe:136 - index = 5 burnIndex = 35 shuffle needed = false
+12:24:24 INFO  Thread-1 55968 Dealer:499 - got double down amt = 200.0 hid = JennaLaptop:YOU:2276E59F806B83E3 card = CA
+12:24:24 INFO  Thread-1 55968 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:24:24 INFO  Thread-1 55971 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:24:24 INFO  Thread-1 55971 Dealer:517 - going to next hand
+12:24:24 INFO  Thread-1 55971 Dealer:586 - hand sequence index = 1 hand sequence size = 1
+12:24:24 INFO  Thread-1 55971 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:24:24 INFO  Thread-1 55972 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:24:24 INFO  Thread-1 55972 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:24:24 INFO  Thread-1 55974 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:24:24 INFO  Thread-1 55974 Shoe:112 - cards size = 52 burn index = 35 index = 5
+12:24:24 INFO  Thread-1 55974 Shoe:136 - index = 6 burnIndex = 35 shuffle needed = false
+12:24:25 INFO  Thread-1 56727 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:24:25 INFO  Thread-1 56729 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:24:25 INFO  Thread-1 56729 Shoe:112 - cards size = 52 burn index = 35 index = 6
+12:24:25 INFO  Thread-1 56729 Shoe:136 - index = 7 burnIndex = 35 shuffle needed = false
+12:24:26 INFO  Thread-1 57481 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:24:26 INFO  Thread-1 57482 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:24:26 INFO  Thread-1 57483 Actor:185 - RealPlayer sending Win to 192.168.1.22:8001
+12:24:26 INFO  Thread-1 57489 Actor:185 - RealPlayer sent successfully Win to 192.168.1.22:8001
+12:24:26 INFO  Thread-1 57490 Actor:185 - RealPlayer sending GameOver to 192.168.1.22:8001
+12:24:26 INFO  Thread-1 57492 Actor:185 - RealPlayer sent successfully GameOver to 192.168.1.22:8001
+12:24:26 INFO  Thread-1 57493 Actor:185 - RealPlayer waiting for connection on port 8501
+12:25:08 INFO  Thread-1 99879 Actor:185 - RealPlayer accepted connection on port 8501
+12:25:08 INFO  Thread-1 99883 Actor:185 - RealPlayer received message Bet
+12:25:08 INFO  Thread-1 99883 Actor:185 - RealPlayer invoking listener for Bet
+12:25:08 INFO  Thread-1 99883 Actor:185 - RealPlayer received bet = 100.0
+12:25:08 INFO  Thread-1 99883 Dealer:108 - got new bet = 100.0 side bet = 0.0 from JennaLaptop/192.168.1.22 for hid = JennaLaptop:YOU:248E96EA612CEE7B
+12:25:08 INFO  Thread-1 99884 Dealer:163 - no bot configured for charlie.bot.huey
+12:25:08 INFO  Thread-1 99884 Dealer:163 - no bot configured for charlie.bot.dewey
+12:25:08 INFO  Thread-1 99884 Dealer:257 - starting a game
+12:25:08 INFO  Thread-1 99884 Dealer:272 - hands at table + dealer = 2
+12:25:08 INFO  Thread-1 99885 Actor:185 - RealPlayer sending GameStart to 192.168.1.22:8001
+12:25:08 INFO  Thread-1 99886 Actor:185 - RealPlayer sent successfully GameStart to 192.168.1.22:8001
+12:25:08 INFO  Thread-1 100137 Shoe:112 - cards size = 52 burn index = 35 index = 7
+12:25:08 INFO  Thread-1 100138 Shoe:136 - index = 8 burnIndex = 35 shuffle needed = false
+12:25:08 INFO  Thread-1 100138 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = DA
+12:25:09 INFO  Thread-1 100888 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:25:09 INFO  Thread-1 100893 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:25:09 INFO  Thread-1 100893 Shoe:112 - cards size = 52 burn index = 35 index = 8
+12:25:09 INFO  Thread-1 100893 Shoe:136 - index = 9 burnIndex = 35 shuffle needed = false
+12:25:10 INFO  Thread-1 101645 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:25:10 INFO  Thread-1 101648 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:25:10 INFO  Thread-1 101648 Shoe:112 - cards size = 52 burn index = 35 index = 9
+12:25:10 INFO  Thread-1 101649 Shoe:136 - index = 10 burnIndex = 35 shuffle needed = false
+12:25:10 INFO  Thread-1 101649 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = H6
+12:25:10 INFO  Thread-1 102399 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:25:10 INFO  Thread-1 102401 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:25:10 INFO  Thread-1 102401 Shoe:112 - cards size = 52 burn index = 35 index = 10
+12:25:10 INFO  Thread-1 102401 Shoe:136 - index = 11 burnIndex = 35 shuffle needed = false
+12:25:11 INFO  Thread-1 103153 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:25:11 INFO  Thread-1 103154 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:25:11 INFO  Thread-1 103154 Dealer:586 - hand sequence index = 0 hand sequence size = 1
+12:25:11 INFO  Thread-1 103155 Dealer:596 - active player = JennaLaptop/192.168.1.22
+12:25:11 INFO  Thread-1 103155 Dealer:636 - sending turn JennaLaptop:YOU:248E96EA612CEE7B to JennaLaptop/192.168.1.22
+12:25:11 INFO  Thread-1 103155 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:25:11 INFO  Thread-1 103158 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:25:11 INFO  Thread-1 103158 Actor:185 - RealPlayer waiting for connection on port 8501
+12:25:26 INFO  Thread-1 118366 Actor:185 - RealPlayer accepted connection on port 8501
+12:25:26 INFO  Thread-1 118369 Actor:185 - RealPlayer received message Hit
+12:25:26 INFO  Thread-1 118369 Actor:185 - RealPlayer invoking listener for Hit
+12:25:26 INFO  Thread-1 118369 Actor:185 - RealPlayer received request = Hit
+12:25:26 INFO  Thread-1 118369 Shoe:112 - cards size = 52 burn index = 35 index = 11
+12:25:26 INFO  Thread-1 118369 Shoe:136 - index = 12 burnIndex = 35 shuffle needed = false
+12:25:26 INFO  Thread-1 118369 Dealer:402 - hit hid = JennaLaptop:YOU:248E96EA612CEE7B with H4
+12:25:26 INFO  Thread-1 118372 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:25:26 INFO  Thread-1 118374 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:25:26 INFO  Thread-1 118374 Dealer:586 - hand sequence index = 1 hand sequence size = 1
+12:25:26 INFO  Thread-1 118374 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:25:26 INFO  Thread-1 118375 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:25:26 INFO  Thread-1 118375 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:25:26 INFO  Thread-1 118376 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:25:26 INFO  Thread-1 118377 Actor:185 - RealPlayer sending Win to 192.168.1.22:8001
+12:25:26 INFO  Thread-1 118378 Actor:185 - RealPlayer sent successfully Win to 192.168.1.22:8001
+12:25:26 INFO  Thread-1 118378 Actor:185 - RealPlayer sending GameOver to 192.168.1.22:8001
+12:25:26 INFO  Thread-1 118379 Actor:185 - RealPlayer sent successfully GameOver to 192.168.1.22:8001
+12:25:26 INFO  Thread-1 118379 Actor:185 - RealPlayer waiting for connection on port 8501
+12:26:00 INFO  Thread-1 152284 Actor:185 - RealPlayer accepted connection on port 8501
+12:26:00 INFO  Thread-1 152286 Actor:185 - RealPlayer received message Bet
+12:26:00 INFO  Thread-1 152286 Actor:185 - RealPlayer invoking listener for Bet
+12:26:00 INFO  Thread-1 152286 Actor:185 - RealPlayer received bet = 100.0
+12:26:00 INFO  Thread-1 152287 Dealer:108 - got new bet = 100.0 side bet = 0.0 from JennaLaptop/192.168.1.22 for hid = JennaLaptop:YOU:746A8A6B2FC54DF5
+12:26:00 INFO  Thread-1 152287 Dealer:163 - no bot configured for charlie.bot.huey
+12:26:00 INFO  Thread-1 152287 Dealer:163 - no bot configured for charlie.bot.dewey
+12:26:00 INFO  Thread-1 152287 Dealer:257 - starting a game
+12:26:00 INFO  Thread-1 152288 Dealer:272 - hands at table + dealer = 2
+12:26:00 INFO  Thread-1 152288 Actor:185 - RealPlayer sending GameStart to 192.168.1.22:8001
+12:26:00 INFO  Thread-1 152289 Actor:185 - RealPlayer sent successfully GameStart to 192.168.1.22:8001
+12:26:01 INFO  Thread-1 152540 Shoe:112 - cards size = 52 burn index = 35 index = 12
+12:26:01 INFO  Thread-1 152540 Shoe:136 - index = 13 burnIndex = 35 shuffle needed = false
+12:26:01 INFO  Thread-1 152540 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = HA
+12:26:01 INFO  Thread-1 153292 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:26:01 INFO  Thread-1 153294 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:26:01 INFO  Thread-1 153294 Shoe:112 - cards size = 52 burn index = 35 index = 13
+12:26:01 INFO  Thread-1 153295 Shoe:136 - index = 14 burnIndex = 35 shuffle needed = false
+12:26:02 INFO  Thread-1 154046 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:26:02 INFO  Thread-1 154048 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:26:02 INFO  Thread-1 154050 Shoe:112 - cards size = 52 burn index = 35 index = 14
+12:26:02 INFO  Thread-1 154050 Shoe:136 - index = 15 burnIndex = 35 shuffle needed = false
+12:26:02 INFO  Thread-1 154051 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = S9
+12:26:03 INFO  Thread-1 154802 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:26:03 INFO  Thread-1 154803 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:26:03 INFO  Thread-1 154804 Shoe:112 - cards size = 52 burn index = 35 index = 15
+12:26:03 INFO  Thread-1 154806 Shoe:136 - index = 16 burnIndex = 35 shuffle needed = false
+12:26:04 INFO  Thread-1 155557 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:26:04 INFO  Thread-1 155558 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:26:04 INFO  Thread-1 155559 Dealer:586 - hand sequence index = 0 hand sequence size = 1
+12:26:04 INFO  Thread-1 155559 Dealer:596 - active player = JennaLaptop/192.168.1.22
+12:26:04 INFO  Thread-1 155559 Dealer:636 - sending turn JennaLaptop:YOU:746A8A6B2FC54DF5 to JennaLaptop/192.168.1.22
+12:26:04 INFO  Thread-1 155559 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:26:04 INFO  Thread-1 155561 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:26:04 INFO  Thread-1 155561 Actor:185 - RealPlayer waiting for connection on port 8501
+12:26:19 INFO  Thread-1 171167 Actor:185 - RealPlayer accepted connection on port 8501
+12:26:19 INFO  Thread-1 171173 Actor:185 - RealPlayer received message Stay
+12:26:19 INFO  Thread-1 171173 Actor:185 - RealPlayer invoking listener for Stay
+12:26:19 INFO  Thread-1 171173 Actor:185 - RealPlayer received request = Stay
+12:26:19 INFO  Thread-1 171173 Dealer:465 - got STAY for JennaLaptop:YOU:746A8A6B2FC54DF5
+12:26:19 INFO  Thread-1 171173 Dealer:470 - going to next hand
+12:26:19 INFO  Thread-1 171173 Dealer:586 - hand sequence index = 1 hand sequence size = 1
+12:26:19 INFO  Thread-1 171173 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:26:19 INFO  Thread-1 171175 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:26:19 INFO  Thread-1 171176 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:26:19 INFO  Thread-1 171178 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:26:19 INFO  Thread-1 171179 Shoe:112 - cards size = 52 burn index = 35 index = 16
+12:26:19 INFO  Thread-1 171179 Shoe:136 - index = 17 burnIndex = 35 shuffle needed = false
+12:26:20 INFO  Thread-1 171930 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:26:20 INFO  Thread-1 171932 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:26:20 INFO  Thread-1 171932 Actor:185 - RealPlayer sending Win to 192.168.1.22:8001
+12:26:20 INFO  Thread-1 171936 Actor:185 - RealPlayer sent successfully Win to 192.168.1.22:8001
+12:26:20 INFO  Thread-1 171937 Actor:185 - RealPlayer sending GameOver to 192.168.1.22:8001
+12:26:20 INFO  Thread-1 171939 Actor:185 - RealPlayer sent successfully GameOver to 192.168.1.22:8001
+12:26:20 INFO  Thread-1 171939 Actor:185 - RealPlayer waiting for connection on port 8501
+12:26:58 INFO  Thread-1 209968 Actor:185 - RealPlayer accepted connection on port 8501
+12:26:58 INFO  Thread-1 209970 Actor:185 - RealPlayer received message Bet
+12:26:58 INFO  Thread-1 209970 Actor:185 - RealPlayer invoking listener for Bet
+12:26:58 INFO  Thread-1 209971 Actor:185 - RealPlayer received bet = 100.0
+12:26:58 INFO  Thread-1 209971 Dealer:108 - got new bet = 100.0 side bet = 0.0 from JennaLaptop/192.168.1.22 for hid = JennaLaptop:YOU:48AF90C7B6A4F801
+12:26:58 INFO  Thread-1 209971 Dealer:163 - no bot configured for charlie.bot.huey
+12:26:58 INFO  Thread-1 209971 Dealer:163 - no bot configured for charlie.bot.dewey
+12:26:58 INFO  Thread-1 209971 Dealer:257 - starting a game
+12:26:58 INFO  Thread-1 209971 Dealer:272 - hands at table + dealer = 2
+12:26:58 INFO  Thread-1 209971 Actor:185 - RealPlayer sending GameStart to 192.168.1.22:8001
+12:26:58 INFO  Thread-1 209972 Actor:185 - RealPlayer sent successfully GameStart to 192.168.1.22:8001
+12:26:58 INFO  Thread-1 210223 Shoe:112 - cards size = 52 burn index = 35 index = 17
+12:26:58 INFO  Thread-1 210223 Shoe:136 - index = 18 burnIndex = 35 shuffle needed = false
+12:26:58 INFO  Thread-1 210223 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = H7
+12:26:59 INFO  Thread-1 210974 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:26:59 INFO  Thread-1 210976 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:26:59 INFO  Thread-1 210977 Shoe:112 - cards size = 52 burn index = 35 index = 18
+12:26:59 INFO  Thread-1 210977 Shoe:136 - index = 19 burnIndex = 35 shuffle needed = false
+12:27:00 INFO  Thread-1 211728 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:27:00 INFO  Thread-1 211732 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:27:00 INFO  Thread-1 211732 Shoe:112 - cards size = 52 burn index = 35 index = 19
+12:27:00 INFO  Thread-1 211732 Shoe:136 - index = 20 burnIndex = 35 shuffle needed = false
+12:27:00 INFO  Thread-1 211733 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = CJ
+12:27:01 INFO  Thread-1 212484 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:27:01 INFO  Thread-1 212488 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:27:01 INFO  Thread-1 212489 Shoe:112 - cards size = 52 burn index = 35 index = 20
+12:27:01 INFO  Thread-1 212489 Shoe:136 - index = 21 burnIndex = 35 shuffle needed = false
+12:27:01 INFO  Thread-1 213241 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:27:01 INFO  Thread-1 213242 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:27:01 INFO  Thread-1 213243 Dealer:586 - hand sequence index = 0 hand sequence size = 1
+12:27:01 INFO  Thread-1 213243 Dealer:596 - active player = JennaLaptop/192.168.1.22
+12:27:01 INFO  Thread-1 213243 Dealer:636 - sending turn JennaLaptop:YOU:48AF90C7B6A4F801 to JennaLaptop/192.168.1.22
+12:27:01 INFO  Thread-1 213243 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:27:01 INFO  Thread-1 213247 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:27:01 INFO  Thread-1 213248 Actor:185 - RealPlayer waiting for connection on port 8501
+12:27:37 INFO  Thread-1 248818 Actor:185 - RealPlayer accepted connection on port 8501
+12:27:37 INFO  Thread-1 248820 Actor:185 - RealPlayer received message Hit
+12:27:37 INFO  Thread-1 248821 Actor:185 - RealPlayer invoking listener for Hit
+12:27:37 INFO  Thread-1 248821 Actor:185 - RealPlayer received request = Hit
+12:27:37 INFO  Thread-1 248821 Shoe:112 - cards size = 52 burn index = 35 index = 21
+12:27:37 INFO  Thread-1 248821 Shoe:136 - index = 22 burnIndex = 35 shuffle needed = false
+12:27:37 INFO  Thread-1 248821 Dealer:402 - hit hid = JennaLaptop:YOU:48AF90C7B6A4F801 with H8
+12:27:37 INFO  Thread-1 248821 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:27:37 INFO  Thread-1 248822 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:27:37 INFO  Thread-1 248822 Actor:185 - RealPlayer sending Bust to 192.168.1.22:8001
+12:27:37 INFO  Thread-1 248824 Actor:185 - RealPlayer sent successfully Bust to 192.168.1.22:8001
+12:27:37 INFO  Thread-1 248826 Dealer:419 - going to next hand
+12:27:37 INFO  Thread-1 248826 Dealer:586 - hand sequence index = 1 hand sequence size = 1
+12:27:37 INFO  Thread-1 248827 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:27:37 INFO  Thread-1 248828 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:27:37 INFO  Thread-1 248829 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:27:37 INFO  Thread-1 248831 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:27:37 INFO  Thread-1 248831 Actor:185 - RealPlayer sending GameOver to 192.168.1.22:8001
+12:27:37 INFO  Thread-1 248832 Actor:185 - RealPlayer sent successfully GameOver to 192.168.1.22:8001
+12:27:37 INFO  Thread-1 248833 Actor:185 - RealPlayer waiting for connection on port 8501
+12:27:52 INFO  Thread-1 264301 Actor:185 - RealPlayer accepted connection on port 8501
+12:27:52 INFO  Thread-1 264302 Actor:185 - RealPlayer received message Bet
+12:27:52 INFO  Thread-1 264302 Actor:185 - RealPlayer invoking listener for Bet
+12:27:52 INFO  Thread-1 264302 Actor:185 - RealPlayer received bet = 100.0
+12:27:52 INFO  Thread-1 264303 Dealer:108 - got new bet = 100.0 side bet = 0.0 from JennaLaptop/192.168.1.22 for hid = JennaLaptop:YOU:75D5E38CE855810F
+12:27:52 INFO  Thread-1 264303 Dealer:163 - no bot configured for charlie.bot.huey
+12:27:52 INFO  Thread-1 264303 Dealer:163 - no bot configured for charlie.bot.dewey
+12:27:52 INFO  Thread-1 264303 Dealer:257 - starting a game
+12:27:52 INFO  Thread-1 264303 Dealer:272 - hands at table + dealer = 2
+12:27:52 INFO  Thread-1 264303 Actor:185 - RealPlayer sending GameStart to 192.168.1.22:8001
+12:27:52 INFO  Thread-1 264306 Actor:185 - RealPlayer sent successfully GameStart to 192.168.1.22:8001
+12:27:53 INFO  Thread-1 264557 Shoe:112 - cards size = 52 burn index = 35 index = 22
+12:27:53 INFO  Thread-1 264557 Shoe:136 - index = 23 burnIndex = 35 shuffle needed = false
+12:27:53 INFO  Thread-1 264557 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = DK
+12:27:53 INFO  Thread-1 265308 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:27:53 INFO  Thread-1 265309 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:27:53 INFO  Thread-1 265311 Shoe:112 - cards size = 52 burn index = 35 index = 23
+12:27:53 INFO  Thread-1 265311 Shoe:136 - index = 24 burnIndex = 35 shuffle needed = false
+12:27:54 INFO  Thread-1 266062 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:27:54 INFO  Thread-1 266063 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:27:54 INFO  Thread-1 266064 Shoe:112 - cards size = 52 burn index = 35 index = 24
+12:27:54 INFO  Thread-1 266064 Shoe:136 - index = 25 burnIndex = 35 shuffle needed = false
+12:27:54 INFO  Thread-1 266064 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = SK
+12:27:55 INFO  Thread-1 266815 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:27:55 INFO  Thread-1 266817 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:27:55 INFO  Thread-1 266817 Shoe:112 - cards size = 52 burn index = 35 index = 25
+12:27:55 INFO  Thread-1 266818 Shoe:136 - index = 26 burnIndex = 35 shuffle needed = false
+12:27:56 INFO  Thread-1 267569 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:27:56 INFO  Thread-1 267572 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:27:56 INFO  Thread-1 267572 Dealer:586 - hand sequence index = 0 hand sequence size = 1
+12:27:56 INFO  Thread-1 267573 Dealer:596 - active player = JennaLaptop/192.168.1.22
+12:27:56 INFO  Thread-1 267573 Dealer:636 - sending turn JennaLaptop:YOU:75D5E38CE855810F to JennaLaptop/192.168.1.22
+12:27:56 INFO  Thread-1 267574 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:27:56 INFO  Thread-1 267575 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:27:56 INFO  Thread-1 267575 Actor:185 - RealPlayer waiting for connection on port 8501
+12:28:24 INFO  Thread-1 295847 Actor:185 - RealPlayer accepted connection on port 8501
+12:28:24 INFO  Thread-1 295849 Actor:185 - RealPlayer received message Stay
+12:28:24 INFO  Thread-1 295849 Actor:185 - RealPlayer invoking listener for Stay
+12:28:24 INFO  Thread-1 295849 Actor:185 - RealPlayer received request = Stay
+12:28:24 INFO  Thread-1 295849 Dealer:465 - got STAY for JennaLaptop:YOU:75D5E38CE855810F
+12:28:24 INFO  Thread-1 295849 Dealer:470 - going to next hand
+12:28:24 INFO  Thread-1 295849 Dealer:586 - hand sequence index = 1 hand sequence size = 1
+12:28:24 INFO  Thread-1 295849 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:28:24 INFO  Thread-1 295852 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:28:24 INFO  Thread-1 295853 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:28:24 INFO  Thread-1 295855 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:28:24 INFO  Thread-1 295855 Actor:185 - RealPlayer sending Win to 192.168.1.22:8001
+12:28:24 INFO  Thread-1 295858 Actor:185 - RealPlayer sent successfully Win to 192.168.1.22:8001
+12:28:24 INFO  Thread-1 295859 Actor:185 - RealPlayer sending GameOver to 192.168.1.22:8001
+12:28:24 INFO  Thread-1 295861 Actor:185 - RealPlayer sent successfully GameOver to 192.168.1.22:8001
+12:28:24 INFO  Thread-1 295862 Actor:185 - RealPlayer waiting for connection on port 8501
+12:28:53 INFO  Thread-1 325043 Actor:185 - RealPlayer accepted connection on port 8501
+12:28:53 INFO  Thread-1 325047 Actor:185 - RealPlayer received message Bet
+12:28:53 INFO  Thread-1 325048 Actor:185 - RealPlayer invoking listener for Bet
+12:28:53 INFO  Thread-1 325048 Actor:185 - RealPlayer received bet = 100.0
+12:28:53 INFO  Thread-1 325048 Dealer:108 - got new bet = 100.0 side bet = 0.0 from JennaLaptop/192.168.1.22 for hid = JennaLaptop:YOU:16981F82F2ABFE5F
+12:28:53 INFO  Thread-1 325048 Dealer:163 - no bot configured for charlie.bot.huey
+12:28:53 INFO  Thread-1 325048 Dealer:163 - no bot configured for charlie.bot.dewey
+12:28:53 INFO  Thread-1 325049 Dealer:257 - starting a game
+12:28:53 INFO  Thread-1 325049 Dealer:272 - hands at table + dealer = 2
+12:28:53 INFO  Thread-1 325049 Actor:185 - RealPlayer sending GameStart to 192.168.1.22:8001
+12:28:53 INFO  Thread-1 325051 Actor:185 - RealPlayer sent successfully GameStart to 192.168.1.22:8001
+12:28:53 INFO  Thread-1 325303 Shoe:112 - cards size = 52 burn index = 35 index = 26
+12:28:53 INFO  Thread-1 325304 Shoe:136 - index = 27 burnIndex = 35 shuffle needed = false
+12:28:53 INFO  Thread-1 325304 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = D4
+12:28:54 INFO  Thread-1 326055 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:28:54 INFO  Thread-1 326059 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:28:54 INFO  Thread-1 326059 Shoe:112 - cards size = 52 burn index = 35 index = 27
+12:28:54 INFO  Thread-1 326059 Shoe:136 - index = 28 burnIndex = 35 shuffle needed = false
+12:28:55 INFO  Thread-1 326811 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:28:55 INFO  Thread-1 326813 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:28:55 INFO  Thread-1 326813 Shoe:112 - cards size = 52 burn index = 35 index = 28
+12:28:55 INFO  Thread-1 326814 Shoe:136 - index = 29 burnIndex = 35 shuffle needed = false
+12:28:55 INFO  Thread-1 326814 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = S6
+12:28:56 INFO  Thread-1 327566 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:28:56 INFO  Thread-1 327567 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:28:56 INFO  Thread-1 327567 Shoe:112 - cards size = 52 burn index = 35 index = 29
+12:28:56 INFO  Thread-1 327567 Shoe:136 - index = 30 burnIndex = 35 shuffle needed = false
+12:28:56 INFO  Thread-1 328320 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:28:56 INFO  Thread-1 328322 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:28:56 INFO  Thread-1 328322 Dealer:586 - hand sequence index = 0 hand sequence size = 1
+12:28:56 INFO  Thread-1 328322 Dealer:596 - active player = JennaLaptop/192.168.1.22
+12:28:56 INFO  Thread-1 328322 Dealer:636 - sending turn JennaLaptop:YOU:16981F82F2ABFE5F to JennaLaptop/192.168.1.22
+12:28:56 INFO  Thread-1 328322 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:28:56 INFO  Thread-1 328325 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:28:56 INFO  Thread-1 328327 Actor:185 - RealPlayer waiting for connection on port 8501
+12:29:22 INFO  Thread-1 354228 Actor:185 - RealPlayer accepted connection on port 8501
+12:29:22 INFO  Thread-1 354230 Actor:185 - RealPlayer received message Stay
+12:29:22 INFO  Thread-1 354232 Actor:185 - RealPlayer invoking listener for Stay
+12:29:22 INFO  Thread-1 354232 Actor:185 - RealPlayer received request = Stay
+12:29:22 INFO  Thread-1 354232 Dealer:465 - got STAY for JennaLaptop:YOU:16981F82F2ABFE5F
+12:29:22 INFO  Thread-1 354232 Dealer:470 - going to next hand
+12:29:22 INFO  Thread-1 354232 Dealer:586 - hand sequence index = 1 hand sequence size = 1
+12:29:22 INFO  Thread-1 354232 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:29:22 INFO  Thread-1 354233 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:29:22 INFO  Thread-1 354233 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:29:22 INFO  Thread-1 354235 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:29:22 INFO  Thread-1 354235 Shoe:112 - cards size = 52 burn index = 35 index = 30
+12:29:22 INFO  Thread-1 354235 Shoe:136 - index = 31 burnIndex = 35 shuffle needed = false
+12:29:23 INFO  Thread-1 354986 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:29:23 INFO  Thread-1 354987 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:29:23 INFO  Thread-1 354987 Actor:185 - RealPlayer sending Win to 192.168.1.22:8001
+12:29:23 INFO  Thread-1 354990 Actor:185 - RealPlayer sent successfully Win to 192.168.1.22:8001
+12:29:23 INFO  Thread-1 354990 Actor:185 - RealPlayer sending GameOver to 192.168.1.22:8001
+12:29:23 INFO  Thread-1 354991 Actor:185 - RealPlayer sent successfully GameOver to 192.168.1.22:8001
+12:29:23 INFO  Thread-1 354992 Actor:185 - RealPlayer waiting for connection on port 8501
+12:29:38 INFO  Thread-1 369479 Actor:185 - RealPlayer accepted connection on port 8501
+12:29:38 INFO  Thread-1 369481 Actor:185 - RealPlayer received message Bet
+12:29:38 INFO  Thread-1 369481 Actor:185 - RealPlayer invoking listener for Bet
+12:29:38 INFO  Thread-1 369481 Actor:185 - RealPlayer received bet = 100.0
+12:29:38 INFO  Thread-1 369481 Dealer:108 - got new bet = 100.0 side bet = 0.0 from JennaLaptop/192.168.1.22 for hid = JennaLaptop:YOU:9CCAC3614660690
+12:29:38 INFO  Thread-1 369481 Dealer:163 - no bot configured for charlie.bot.huey
+12:29:38 INFO  Thread-1 369481 Dealer:163 - no bot configured for charlie.bot.dewey
+12:29:38 INFO  Thread-1 369481 Dealer:257 - starting a game
+12:29:38 INFO  Thread-1 369481 Dealer:272 - hands at table + dealer = 2
+12:29:38 INFO  Thread-1 369481 Actor:185 - RealPlayer sending GameStart to 192.168.1.22:8001
+12:29:38 INFO  Thread-1 369482 Actor:185 - RealPlayer sent successfully GameStart to 192.168.1.22:8001
+12:29:38 INFO  Thread-1 369733 Shoe:112 - cards size = 52 burn index = 35 index = 31
+12:29:38 INFO  Thread-1 369733 Shoe:136 - index = 32 burnIndex = 35 shuffle needed = false
+12:29:38 INFO  Thread-1 369734 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = H3
+12:29:39 INFO  Thread-1 370484 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:29:39 INFO  Thread-1 370486 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:29:39 INFO  Thread-1 370486 Shoe:112 - cards size = 52 burn index = 35 index = 32
+12:29:39 INFO  Thread-1 370486 Shoe:136 - index = 33 burnIndex = 35 shuffle needed = false
+12:29:39 INFO  Thread-1 371237 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:29:39 INFO  Thread-1 371239 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:29:39 INFO  Thread-1 371239 Shoe:112 - cards size = 52 burn index = 35 index = 33
+12:29:39 INFO  Thread-1 371239 Shoe:136 - index = 34 burnIndex = 35 shuffle needed = false
+12:29:39 INFO  Thread-1 371239 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = S4
+12:29:40 INFO  Thread-1 371991 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:29:40 INFO  Thread-1 371993 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:29:40 INFO  Thread-1 371995 Shoe:112 - cards size = 52 burn index = 35 index = 34
+12:29:40 INFO  Thread-1 371995 Shoe:136 - index = 35 burnIndex = 35 shuffle needed = true
+12:29:40 INFO  Thread-1 371995 Actor:185 - RealPlayer sending Shuffle to 192.168.1.22:8001
+12:29:40 INFO  Thread-1 372000 Actor:185 - RealPlayer sent successfully Shuffle to 192.168.1.22:8001
+12:29:41 INFO  Thread-1 372751 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:29:41 INFO  Thread-1 372752 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:29:41 INFO  Thread-1 372753 Dealer:586 - hand sequence index = 0 hand sequence size = 1
+12:29:41 INFO  Thread-1 372753 Dealer:596 - active player = JennaLaptop/192.168.1.22
+12:29:41 INFO  Thread-1 372753 Dealer:636 - sending turn JennaLaptop:YOU:9CCAC3614660690 to JennaLaptop/192.168.1.22
+12:29:41 INFO  Thread-1 372753 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:29:41 INFO  Thread-1 372755 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:29:41 INFO  Thread-1 372756 Actor:185 - RealPlayer waiting for connection on port 8501
+12:30:02 INFO  Thread-1 393752 Actor:185 - RealPlayer accepted connection on port 8501
+12:30:02 INFO  Thread-1 393754 Actor:185 - RealPlayer received message Hit
+12:30:02 INFO  Thread-1 393754 Actor:185 - RealPlayer invoking listener for Hit
+12:30:02 INFO  Thread-1 393754 Actor:185 - RealPlayer received request = Hit
+12:30:02 INFO  Thread-1 393754 Shoe:112 - cards size = 52 burn index = 35 index = 35
+12:30:02 INFO  Thread-1 393755 Dealer:402 - hit hid = JennaLaptop:YOU:9CCAC3614660690 with S7
+12:30:02 INFO  Thread-1 393755 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:30:02 INFO  Thread-1 393755 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:30:02 INFO  Thread-1 393756 Actor:185 - RealPlayer waiting for connection on port 8501
+12:30:11 INFO  Thread-1 402692 Actor:185 - RealPlayer accepted connection on port 8501
+12:30:11 INFO  Thread-1 402694 Actor:185 - RealPlayer received message Hit
+12:30:11 INFO  Thread-1 402694 Actor:185 - RealPlayer invoking listener for Hit
+12:30:11 INFO  Thread-1 402694 Actor:185 - RealPlayer received request = Hit
+12:30:11 INFO  Thread-1 402694 Shoe:112 - cards size = 52 burn index = 35 index = 36
+12:30:11 INFO  Thread-1 402695 Dealer:402 - hit hid = JennaLaptop:YOU:9CCAC3614660690 with SA
+12:30:11 INFO  Thread-1 402695 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:30:11 INFO  Thread-1 402698 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:30:11 INFO  Thread-1 402699 Actor:185 - RealPlayer waiting for connection on port 8501
+12:30:14 INFO  Thread-1 405596 Actor:185 - RealPlayer accepted connection on port 8501
+12:30:14 INFO  Thread-1 405598 Actor:185 - RealPlayer received message Hit
+12:30:14 INFO  Thread-1 405598 Actor:185 - RealPlayer invoking listener for Hit
+12:30:14 INFO  Thread-1 405598 Actor:185 - RealPlayer received request = Hit
+12:30:14 INFO  Thread-1 405598 Shoe:112 - cards size = 52 burn index = 35 index = 37
+12:30:14 INFO  Thread-1 405598 Dealer:402 - hit hid = JennaLaptop:YOU:9CCAC3614660690 with DQ
+12:30:14 INFO  Thread-1 405600 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:30:14 INFO  Thread-1 405601 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:30:14 INFO  Thread-1 405602 Actor:185 - RealPlayer sending Bust to 192.168.1.22:8001
+12:30:14 INFO  Thread-1 405603 Actor:185 - RealPlayer sent successfully Bust to 192.168.1.22:8001
+12:30:14 INFO  Thread-1 405603 Dealer:419 - going to next hand
+12:30:14 INFO  Thread-1 405604 Dealer:586 - hand sequence index = 1 hand sequence size = 1
+12:30:14 INFO  Thread-1 405604 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:30:14 INFO  Thread-1 405605 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:30:14 INFO  Thread-1 405605 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:30:14 INFO  Thread-1 405606 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:30:14 INFO  Thread-1 405606 Shoe:103 - shuffling burn index = 35
+12:30:14 INFO  Thread-1 405606 Actor:185 - RealPlayer sending GameOver to 192.168.1.22:8001
+12:30:14 INFO  Thread-1 405608 Actor:185 - RealPlayer sent successfully GameOver to 192.168.1.22:8001
+12:30:14 INFO  Thread-1 405608 Actor:185 - RealPlayer waiting for connection on port 8501
+12:30:38 INFO  Thread-1 430435 Actor:185 - RealPlayer accepted connection on port 8501
+12:30:38 INFO  Thread-1 430439 Actor:185 - RealPlayer received message Bet
+12:30:38 INFO  Thread-1 430439 Actor:185 - RealPlayer invoking listener for Bet
+12:30:38 INFO  Thread-1 430439 Actor:185 - RealPlayer received bet = 100.0
+12:30:38 INFO  Thread-1 430439 Dealer:108 - got new bet = 100.0 side bet = 0.0 from JennaLaptop/192.168.1.22 for hid = JennaLaptop:YOU:5CD0225F73F52506
+12:30:38 INFO  Thread-1 430439 Dealer:163 - no bot configured for charlie.bot.huey
+12:30:38 INFO  Thread-1 430439 Dealer:163 - no bot configured for charlie.bot.dewey
+12:30:38 INFO  Thread-1 430439 Dealer:257 - starting a game
+12:30:38 INFO  Thread-1 430439 Dealer:272 - hands at table + dealer = 2
+12:30:38 INFO  Thread-1 430439 Actor:185 - RealPlayer sending GameStart to 192.168.1.22:8001
+12:30:38 INFO  Thread-1 430441 Actor:185 - RealPlayer sent successfully GameStart to 192.168.1.22:8001
+12:30:39 INFO  Thread-1 430691 Shoe:112 - cards size = 52 burn index = 35 index = 0
+12:30:39 INFO  Thread-1 430691 Shoe:136 - index = 1 burnIndex = 35 shuffle needed = false
+12:30:39 INFO  Thread-1 430692 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = C7
+12:30:39 INFO  Thread-1 431443 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:30:39 INFO  Thread-1 431445 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:30:39 INFO  Thread-1 431445 Shoe:112 - cards size = 52 burn index = 35 index = 1
+12:30:39 INFO  Thread-1 431447 Shoe:136 - index = 2 burnIndex = 35 shuffle needed = false
+12:30:40 INFO  Thread-1 432197 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:30:40 INFO  Thread-1 432200 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:30:40 INFO  Thread-1 432200 Shoe:112 - cards size = 52 burn index = 35 index = 2
+12:30:40 INFO  Thread-1 432200 Shoe:136 - index = 3 burnIndex = 35 shuffle needed = false
+12:30:40 INFO  Thread-1 432201 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = D3
+12:30:41 INFO  Thread-1 432952 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:30:41 INFO  Thread-1 432955 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:30:41 INFO  Thread-1 432955 Shoe:112 - cards size = 52 burn index = 35 index = 3
+12:30:41 INFO  Thread-1 432955 Shoe:136 - index = 4 burnIndex = 35 shuffle needed = false
+12:30:42 INFO  Thread-1 433705 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:30:42 INFO  Thread-1 433708 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:30:42 INFO  Thread-1 433708 Dealer:586 - hand sequence index = 0 hand sequence size = 1
+12:30:42 INFO  Thread-1 433709 Dealer:596 - active player = JennaLaptop/192.168.1.22
+12:30:42 INFO  Thread-1 433709 Dealer:636 - sending turn JennaLaptop:YOU:5CD0225F73F52506 to JennaLaptop/192.168.1.22
+12:30:42 INFO  Thread-1 433709 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:30:42 INFO  Thread-1 433711 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:30:42 INFO  Thread-1 433711 Actor:185 - RealPlayer waiting for connection on port 8501
+12:31:03 INFO  Thread-1 455255 Actor:185 - RealPlayer accepted connection on port 8501
+12:31:03 INFO  Thread-1 455257 Actor:185 - RealPlayer received message Hit
+12:31:03 INFO  Thread-1 455257 Actor:185 - RealPlayer invoking listener for Hit
+12:31:03 INFO  Thread-1 455257 Actor:185 - RealPlayer received request = Hit
+12:31:03 INFO  Thread-1 455257 Shoe:112 - cards size = 52 burn index = 35 index = 4
+12:31:03 INFO  Thread-1 455257 Shoe:136 - index = 5 burnIndex = 35 shuffle needed = false
+12:31:03 INFO  Thread-1 455257 Dealer:402 - hit hid = JennaLaptop:YOU:5CD0225F73F52506 with H6
+12:31:03 INFO  Thread-1 455257 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:31:03 INFO  Thread-1 455259 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:31:03 INFO  Thread-1 455260 Actor:185 - RealPlayer waiting for connection on port 8501
+12:31:06 INFO  Thread-1 458135 Actor:185 - RealPlayer accepted connection on port 8501
+12:31:06 INFO  Thread-1 458138 Actor:185 - RealPlayer received message Hit
+12:31:06 INFO  Thread-1 458139 Actor:185 - RealPlayer invoking listener for Hit
+12:31:06 INFO  Thread-1 458139 Actor:185 - RealPlayer received request = Hit
+12:31:06 INFO  Thread-1 458139 Shoe:112 - cards size = 52 burn index = 35 index = 5
+12:31:06 INFO  Thread-1 458139 Shoe:136 - index = 6 burnIndex = 35 shuffle needed = false
+12:31:06 INFO  Thread-1 458139 Dealer:402 - hit hid = JennaLaptop:YOU:5CD0225F73F52506 with H9
+12:31:06 INFO  Thread-1 458139 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:31:06 INFO  Thread-1 458143 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:31:06 INFO  Thread-1 458144 Actor:185 - RealPlayer sending Bust to 192.168.1.22:8001
+12:31:06 INFO  Thread-1 458147 Actor:185 - RealPlayer sent successfully Bust to 192.168.1.22:8001
+12:31:06 INFO  Thread-1 458147 Dealer:419 - going to next hand
+12:31:06 INFO  Thread-1 458147 Dealer:586 - hand sequence index = 1 hand sequence size = 1
+12:31:06 INFO  Thread-1 458148 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:31:06 INFO  Thread-1 458151 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:31:06 INFO  Thread-1 458151 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:31:06 INFO  Thread-1 458153 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:31:06 INFO  Thread-1 458154 Actor:185 - RealPlayer sending GameOver to 192.168.1.22:8001
+12:31:06 INFO  Thread-1 458155 Actor:185 - RealPlayer sent successfully GameOver to 192.168.1.22:8001
+12:31:06 INFO  Thread-1 458156 Actor:185 - RealPlayer waiting for connection on port 8501
+12:31:11 INFO  Thread-1 463263 Actor:185 - RealPlayer accepted connection on port 8501
+12:31:11 INFO  Thread-1 463266 Actor:185 - RealPlayer received message Bet
+12:31:11 INFO  Thread-1 463266 Actor:185 - RealPlayer invoking listener for Bet
+12:31:11 INFO  Thread-1 463266 Actor:185 - RealPlayer received bet = 100.0
+12:31:11 INFO  Thread-1 463266 Dealer:108 - got new bet = 100.0 side bet = 0.0 from JennaLaptop/192.168.1.22 for hid = JennaLaptop:YOU:20B504CC92B0A818
+12:31:11 INFO  Thread-1 463266 Dealer:163 - no bot configured for charlie.bot.huey
+12:31:11 INFO  Thread-1 463267 Dealer:163 - no bot configured for charlie.bot.dewey
+12:31:11 INFO  Thread-1 463267 Dealer:257 - starting a game
+12:31:11 INFO  Thread-1 463267 Dealer:272 - hands at table + dealer = 2
+12:31:11 INFO  Thread-1 463267 Actor:185 - RealPlayer sending GameStart to 192.168.1.22:8001
+12:31:11 INFO  Thread-1 463267 Actor:185 - RealPlayer sent successfully GameStart to 192.168.1.22:8001
+12:31:12 INFO  Thread-1 463519 Shoe:112 - cards size = 52 burn index = 35 index = 6
+12:31:12 INFO  Thread-1 463519 Shoe:136 - index = 7 burnIndex = 35 shuffle needed = false
+12:31:12 INFO  Thread-1 463519 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = CQ
+12:31:12 INFO  Thread-1 464270 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:31:12 INFO  Thread-1 464272 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:31:12 INFO  Thread-1 464272 Shoe:112 - cards size = 52 burn index = 35 index = 7
+12:31:12 INFO  Thread-1 464272 Shoe:136 - index = 8 burnIndex = 35 shuffle needed = false
+12:31:13 INFO  Thread-1 465023 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:31:13 INFO  Thread-1 465026 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:31:13 INFO  Thread-1 465028 Shoe:112 - cards size = 52 burn index = 35 index = 8
+12:31:13 INFO  Thread-1 465029 Shoe:136 - index = 9 burnIndex = 35 shuffle needed = false
+12:31:13 INFO  Thread-1 465029 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = H4
+12:31:14 INFO  Thread-1 465780 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:31:14 INFO  Thread-1 465781 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:31:14 INFO  Thread-1 465781 Shoe:112 - cards size = 52 burn index = 35 index = 9
+12:31:14 INFO  Thread-1 465781 Shoe:136 - index = 10 burnIndex = 35 shuffle needed = false
+12:31:15 INFO  Thread-1 466532 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:31:15 INFO  Thread-1 466534 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:31:15 INFO  Thread-1 466534 Dealer:586 - hand sequence index = 0 hand sequence size = 1
+12:31:15 INFO  Thread-1 466534 Dealer:596 - active player = JennaLaptop/192.168.1.22
+12:31:15 INFO  Thread-1 466534 Dealer:636 - sending turn JennaLaptop:YOU:20B504CC92B0A818 to JennaLaptop/192.168.1.22
+12:31:15 INFO  Thread-1 466535 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:31:15 INFO  Thread-1 466536 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:31:15 INFO  Thread-1 466536 Actor:185 - RealPlayer waiting for connection on port 8501
+12:31:39 INFO  Thread-1 490843 Actor:185 - RealPlayer accepted connection on port 8501
+12:31:39 INFO  Thread-1 490845 Actor:185 - RealPlayer received message Stay
+12:31:39 INFO  Thread-1 490846 Actor:185 - RealPlayer invoking listener for Stay
+12:31:39 INFO  Thread-1 490846 Actor:185 - RealPlayer received request = Stay
+12:31:39 INFO  Thread-1 490847 Dealer:465 - got STAY for JennaLaptop:YOU:20B504CC92B0A818
+12:31:39 INFO  Thread-1 490847 Dealer:470 - going to next hand
+12:31:39 INFO  Thread-1 490847 Dealer:586 - hand sequence index = 1 hand sequence size = 1
+12:31:39 INFO  Thread-1 490847 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:31:39 INFO  Thread-1 490850 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:31:39 INFO  Thread-1 490850 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:31:39 INFO  Thread-1 490851 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:31:39 INFO  Thread-1 490852 Shoe:112 - cards size = 52 burn index = 35 index = 10
+12:31:39 INFO  Thread-1 490852 Shoe:136 - index = 11 burnIndex = 35 shuffle needed = false
+12:31:40 INFO  Thread-1 491602 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:31:40 INFO  Thread-1 491605 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:31:40 INFO  Thread-1 491606 Actor:185 - RealPlayer sending Lose to 192.168.1.22:8001
+12:31:40 INFO  Thread-1 491610 Actor:185 - RealPlayer sent successfully Lose to 192.168.1.22:8001
+12:31:40 INFO  Thread-1 491611 Actor:185 - RealPlayer sending GameOver to 192.168.1.22:8001
+12:31:40 INFO  Thread-1 491613 Actor:185 - RealPlayer sent successfully GameOver to 192.168.1.22:8001
+12:31:40 INFO  Thread-1 491614 Actor:185 - RealPlayer waiting for connection on port 8501
+12:32:07 INFO  Thread-1 518846 Actor:185 - RealPlayer accepted connection on port 8501
+12:32:07 INFO  Thread-1 518848 Actor:185 - RealPlayer received message Bet
+12:32:07 INFO  Thread-1 518848 Actor:185 - RealPlayer invoking listener for Bet
+12:32:07 INFO  Thread-1 518848 Actor:185 - RealPlayer received bet = 100.0
+12:32:07 INFO  Thread-1 518848 Dealer:108 - got new bet = 100.0 side bet = 0.0 from JennaLaptop/192.168.1.22 for hid = JennaLaptop:YOU:498A923457EB3667
+12:32:07 INFO  Thread-1 518848 Dealer:163 - no bot configured for charlie.bot.huey
+12:32:07 INFO  Thread-1 518850 Dealer:163 - no bot configured for charlie.bot.dewey
+12:32:07 INFO  Thread-1 518850 Dealer:257 - starting a game
+12:32:07 INFO  Thread-1 518850 Dealer:272 - hands at table + dealer = 2
+12:32:07 INFO  Thread-1 518850 Actor:185 - RealPlayer sending GameStart to 192.168.1.22:8001
+12:32:07 INFO  Thread-1 518850 Actor:185 - RealPlayer sent successfully GameStart to 192.168.1.22:8001
+12:32:07 INFO  Thread-1 519101 Shoe:112 - cards size = 52 burn index = 35 index = 11
+12:32:07 INFO  Thread-1 519101 Shoe:136 - index = 12 burnIndex = 35 shuffle needed = false
+12:32:07 INFO  Thread-1 519101 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = D8
+12:32:08 INFO  Thread-1 519854 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:32:08 INFO  Thread-1 519857 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:32:08 INFO  Thread-1 519857 Shoe:112 - cards size = 52 burn index = 35 index = 12
+12:32:08 INFO  Thread-1 519857 Shoe:136 - index = 13 burnIndex = 35 shuffle needed = false
+12:32:09 INFO  Thread-1 520608 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:32:09 INFO  Thread-1 520608 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:32:09 INFO  Thread-1 520608 Shoe:112 - cards size = 52 burn index = 35 index = 13
+12:32:09 INFO  Thread-1 520610 Shoe:136 - index = 14 burnIndex = 35 shuffle needed = false
+12:32:09 INFO  Thread-1 520610 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = S4
+12:32:09 INFO  Thread-1 521361 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:32:09 INFO  Thread-1 521363 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:32:09 INFO  Thread-1 521363 Shoe:112 - cards size = 52 burn index = 35 index = 14
+12:32:09 INFO  Thread-1 521363 Shoe:136 - index = 15 burnIndex = 35 shuffle needed = false
+12:32:10 INFO  Thread-1 522115 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:32:10 INFO  Thread-1 522117 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:32:10 INFO  Thread-1 522117 Dealer:586 - hand sequence index = 0 hand sequence size = 1
+12:32:10 INFO  Thread-1 522117 Dealer:596 - active player = JennaLaptop/192.168.1.22
+12:32:10 INFO  Thread-1 522118 Dealer:636 - sending turn JennaLaptop:YOU:498A923457EB3667 to JennaLaptop/192.168.1.22
+12:32:10 INFO  Thread-1 522118 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:32:10 INFO  Thread-1 522120 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:32:10 INFO  Thread-1 522120 Actor:185 - RealPlayer waiting for connection on port 8501
+12:32:27 INFO  Thread-1 538839 Actor:185 - RealPlayer accepted connection on port 8501
+12:32:27 INFO  Thread-1 538841 Actor:185 - RealPlayer received message Hit
+12:32:27 INFO  Thread-1 538841 Actor:185 - RealPlayer invoking listener for Hit
+12:32:27 INFO  Thread-1 538841 Actor:185 - RealPlayer received request = Hit
+12:32:27 INFO  Thread-1 538841 Shoe:112 - cards size = 52 burn index = 35 index = 15
+12:32:27 INFO  Thread-1 538841 Shoe:136 - index = 16 burnIndex = 35 shuffle needed = false
+12:32:27 INFO  Thread-1 538841 Dealer:402 - hit hid = JennaLaptop:YOU:498A923457EB3667 with D4
+12:32:27 INFO  Thread-1 538841 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:32:27 INFO  Thread-1 538841 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:32:27 INFO  Thread-1 538843 Actor:185 - RealPlayer waiting for connection on port 8501
+12:32:34 INFO  Thread-1 545545 Actor:185 - RealPlayer accepted connection on port 8501
+12:32:34 INFO  Thread-1 545546 Actor:185 - RealPlayer received message Hit
+12:32:34 INFO  Thread-1 545546 Actor:185 - RealPlayer invoking listener for Hit
+12:32:34 INFO  Thread-1 545547 Actor:185 - RealPlayer received request = Hit
+12:32:34 INFO  Thread-1 545547 Shoe:112 - cards size = 52 burn index = 35 index = 16
+12:32:34 INFO  Thread-1 545547 Shoe:136 - index = 17 burnIndex = 35 shuffle needed = false
+12:32:34 INFO  Thread-1 545547 Dealer:402 - hit hid = JennaLaptop:YOU:498A923457EB3667 with HK
+12:32:34 INFO  Thread-1 545547 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:32:34 INFO  Thread-1 545548 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:32:34 INFO  Thread-1 545548 Actor:185 - RealPlayer sending Bust to 192.168.1.22:8001
+12:32:34 INFO  Thread-1 545548 Actor:185 - RealPlayer sent successfully Bust to 192.168.1.22:8001
+12:32:34 INFO  Thread-1 545548 Dealer:419 - going to next hand
+12:32:34 INFO  Thread-1 545550 Dealer:586 - hand sequence index = 1 hand sequence size = 1
+12:32:34 INFO  Thread-1 545550 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:32:34 INFO  Thread-1 545551 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:32:34 INFO  Thread-1 545551 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:32:34 INFO  Thread-1 545552 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:32:34 INFO  Thread-1 545552 Actor:185 - RealPlayer sending GameOver to 192.168.1.22:8001
+12:32:34 INFO  Thread-1 545552 Actor:185 - RealPlayer sent successfully GameOver to 192.168.1.22:8001
+12:32:34 INFO  Thread-1 545552 Actor:185 - RealPlayer waiting for connection on port 8501
+12:32:42 INFO  Thread-1 553917 Actor:185 - RealPlayer accepted connection on port 8501
+12:32:42 INFO  Thread-1 553919 Actor:185 - RealPlayer received message Bet
+12:32:42 INFO  Thread-1 553919 Actor:185 - RealPlayer invoking listener for Bet
+12:32:42 INFO  Thread-1 553919 Actor:185 - RealPlayer received bet = 100.0
+12:32:42 INFO  Thread-1 553920 Dealer:108 - got new bet = 100.0 side bet = 0.0 from JennaLaptop/192.168.1.22 for hid = JennaLaptop:YOU:5F11233E2E49FCD
+12:32:42 INFO  Thread-1 553920 Dealer:163 - no bot configured for charlie.bot.huey
+12:32:42 INFO  Thread-1 553920 Dealer:163 - no bot configured for charlie.bot.dewey
+12:32:42 INFO  Thread-1 553920 Dealer:257 - starting a game
+12:32:42 INFO  Thread-1 553920 Dealer:272 - hands at table + dealer = 2
+12:32:42 INFO  Thread-1 553920 Actor:185 - RealPlayer sending GameStart to 192.168.1.22:8001
+12:32:42 INFO  Thread-1 553922 Actor:185 - RealPlayer sent successfully GameStart to 192.168.1.22:8001
+12:32:42 INFO  Thread-1 554173 Shoe:112 - cards size = 52 burn index = 35 index = 17
+12:32:42 INFO  Thread-1 554173 Shoe:136 - index = 18 burnIndex = 35 shuffle needed = false
+12:32:42 INFO  Thread-1 554173 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = SA
+12:32:43 INFO  Thread-1 554924 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:32:43 INFO  Thread-1 554926 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:32:43 INFO  Thread-1 554926 Shoe:112 - cards size = 52 burn index = 35 index = 18
+12:32:43 INFO  Thread-1 554926 Shoe:136 - index = 19 burnIndex = 35 shuffle needed = false
+12:32:44 INFO  Thread-1 555677 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:32:44 INFO  Thread-1 555679 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:32:44 INFO  Thread-1 555679 Shoe:112 - cards size = 52 burn index = 35 index = 19
+12:32:44 INFO  Thread-1 555680 Shoe:136 - index = 20 burnIndex = 35 shuffle needed = false
+12:32:44 INFO  Thread-1 555680 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = DQ
+12:32:44 INFO  Thread-1 556431 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:32:44 INFO  Thread-1 556433 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:32:44 INFO  Thread-1 556434 Actor:185 - RealPlayer sending Blackjack to 192.168.1.22:8001
+12:32:44 INFO  Thread-1 556437 Actor:185 - RealPlayer sent successfully Blackjack to 192.168.1.22:8001
+12:32:44 INFO  Thread-1 556437 Shoe:112 - cards size = 52 burn index = 35 index = 20
+12:32:44 INFO  Thread-1 556438 Shoe:136 - index = 21 burnIndex = 35 shuffle needed = false
+12:32:45 INFO  Thread-1 557189 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:32:45 INFO  Thread-1 557190 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:32:45 INFO  Thread-1 557190 Dealer:586 - hand sequence index = 0 hand sequence size = 1
+12:32:45 INFO  Thread-1 557190 Dealer:596 - active player = JennaLaptop/192.168.1.22
+12:32:45 INFO  Thread-1 557190 Dealer:586 - hand sequence index = 1 hand sequence size = 1
+12:32:45 INFO  Thread-1 557190 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:32:45 INFO  Thread-1 557191 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:32:45 INFO  Thread-1 557191 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:32:45 INFO  Thread-1 557191 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:32:45 INFO  Thread-1 557191 Actor:185 - RealPlayer sending GameOver to 192.168.1.22:8001
+12:32:45 INFO  Thread-1 557192 Actor:185 - RealPlayer sent successfully GameOver to 192.168.1.22:8001
+12:32:45 INFO  Thread-1 557192 Actor:185 - RealPlayer waiting for connection on port 8501
+12:32:48 INFO  Thread-1 560041 Actor:185 - RealPlayer accepted connection on port 8501
+12:32:48 INFO  Thread-1 560043 Actor:185 - RealPlayer received message Bet
+12:32:48 INFO  Thread-1 560043 Actor:185 - RealPlayer invoking listener for Bet
+12:32:48 INFO  Thread-1 560043 Actor:185 - RealPlayer received bet = 100.0
+12:32:48 INFO  Thread-1 560043 Dealer:108 - got new bet = 100.0 side bet = 0.0 from JennaLaptop/192.168.1.22 for hid = JennaLaptop:YOU:663714AEAFCBB947
+12:32:48 INFO  Thread-1 560043 Dealer:163 - no bot configured for charlie.bot.huey
+12:32:48 INFO  Thread-1 560043 Dealer:163 - no bot configured for charlie.bot.dewey
+12:32:48 INFO  Thread-1 560043 Dealer:257 - starting a game
+12:32:48 INFO  Thread-1 560043 Dealer:272 - hands at table + dealer = 2
+12:32:48 INFO  Thread-1 560043 Actor:185 - RealPlayer sending GameStart to 192.168.1.22:8001
+12:32:48 INFO  Thread-1 560044 Actor:185 - RealPlayer sent successfully GameStart to 192.168.1.22:8001
+12:32:48 INFO  Thread-1 560296 Shoe:112 - cards size = 52 burn index = 35 index = 21
+12:32:48 INFO  Thread-1 560296 Shoe:136 - index = 22 burnIndex = 35 shuffle needed = false
+12:32:48 INFO  Thread-1 560296 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = HA
+12:32:49 INFO  Thread-1 561048 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:32:49 INFO  Thread-1 561050 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:32:49 INFO  Thread-1 561050 Shoe:112 - cards size = 52 burn index = 35 index = 22
+12:32:49 INFO  Thread-1 561050 Shoe:136 - index = 23 burnIndex = 35 shuffle needed = false
+12:32:50 INFO  Thread-1 561801 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:32:50 INFO  Thread-1 561801 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:32:50 INFO  Thread-1 561801 Shoe:112 - cards size = 52 burn index = 35 index = 23
+12:32:50 INFO  Thread-1 561803 Shoe:136 - index = 24 burnIndex = 35 shuffle needed = false
+12:32:50 INFO  Thread-1 561803 Dealer:351 - dealing to JennaLaptop/192.168.1.22 card 1 = H3
+12:32:51 INFO  Thread-1 562554 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:32:51 INFO  Thread-1 562556 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:32:51 INFO  Thread-1 562556 Shoe:112 - cards size = 52 burn index = 35 index = 24
+12:32:51 INFO  Thread-1 562556 Shoe:136 - index = 25 burnIndex = 35 shuffle needed = false
+12:32:51 INFO  Thread-1 563307 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:32:51 INFO  Thread-1 563308 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:32:51 INFO  Thread-1 563308 Dealer:586 - hand sequence index = 0 hand sequence size = 1
+12:32:51 INFO  Thread-1 563308 Dealer:596 - active player = JennaLaptop/192.168.1.22
+12:32:51 INFO  Thread-1 563308 Dealer:636 - sending turn JennaLaptop:YOU:663714AEAFCBB947 to JennaLaptop/192.168.1.22
+12:32:51 INFO  Thread-1 563310 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:32:51 INFO  Thread-1 563311 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:32:51 INFO  Thread-1 563312 Actor:185 - RealPlayer waiting for connection on port 8501
+12:33:32 INFO  Thread-1 603870 Actor:185 - RealPlayer accepted connection on port 8501
+12:33:32 INFO  Thread-1 603871 Actor:185 - RealPlayer received message Hit
+12:33:32 INFO  Thread-1 603871 Actor:185 - RealPlayer invoking listener for Hit
+12:33:32 INFO  Thread-1 603871 Actor:185 - RealPlayer received request = Hit
+12:33:32 INFO  Thread-1 603872 Shoe:112 - cards size = 52 burn index = 35 index = 25
+12:33:32 INFO  Thread-1 603872 Shoe:136 - index = 26 burnIndex = 35 shuffle needed = false
+12:33:32 INFO  Thread-1 603872 Dealer:402 - hit hid = JennaLaptop:YOU:663714AEAFCBB947 with CA
+12:33:32 INFO  Thread-1 603872 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:33:32 INFO  Thread-1 603874 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:33:32 INFO  Thread-1 603874 Actor:185 - RealPlayer waiting for connection on port 8501
+12:33:46 INFO  Thread-1 617785 Actor:185 - RealPlayer accepted connection on port 8501
+12:33:46 INFO  Thread-1 617788 Actor:185 - RealPlayer received message Hit
+12:33:46 INFO  Thread-1 617788 Actor:185 - RealPlayer invoking listener for Hit
+12:33:46 INFO  Thread-1 617788 Actor:185 - RealPlayer received request = Hit
+12:33:46 INFO  Thread-1 617788 Shoe:112 - cards size = 52 burn index = 35 index = 26
+12:33:46 INFO  Thread-1 617789 Shoe:136 - index = 27 burnIndex = 35 shuffle needed = false
+12:33:46 INFO  Thread-1 617789 Dealer:402 - hit hid = JennaLaptop:YOU:663714AEAFCBB947 with S5
+12:33:46 INFO  Thread-1 617789 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:33:46 INFO  Thread-1 617791 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:33:46 INFO  Thread-1 617792 Actor:185 - RealPlayer waiting for connection on port 8501
+12:33:48 INFO  Thread-1 619772 Actor:185 - RealPlayer accepted connection on port 8501
+12:33:48 INFO  Thread-1 619774 Actor:185 - RealPlayer received message Stay
+12:33:48 INFO  Thread-1 619774 Actor:185 - RealPlayer invoking listener for Stay
+12:33:48 INFO  Thread-1 619774 Actor:185 - RealPlayer received request = Stay
+12:33:48 INFO  Thread-1 619774 Dealer:465 - got STAY for JennaLaptop:YOU:663714AEAFCBB947
+12:33:48 INFO  Thread-1 619774 Dealer:470 - going to next hand
+12:33:48 INFO  Thread-1 619774 Dealer:586 - hand sequence index = 1 hand sequence size = 1
+12:33:48 INFO  Thread-1 619774 Actor:185 - RealPlayer sending Play to 192.168.1.22:8001
+12:33:48 INFO  Thread-1 619775 Actor:185 - RealPlayer sent successfully Play to 192.168.1.22:8001
+12:33:48 INFO  Thread-1 619776 Actor:185 - RealPlayer sending Deal to 192.168.1.22:8001
+12:33:48 INFO  Thread-1 619777 Actor:185 - RealPlayer sent successfully Deal to 192.168.1.22:8001
+12:33:48 INFO  Thread-1 619777 Actor:185 - RealPlayer sending Win to 192.168.1.22:8001
+12:33:48 INFO  Thread-1 619778 Actor:185 - RealPlayer sent successfully Win to 192.168.1.22:8001
+12:33:48 INFO  Thread-1 619779 Actor:185 - RealPlayer sending GameOver to 192.168.1.22:8001
+12:33:48 INFO  Thread-1 619780 Actor:185 - RealPlayer sent successfully GameOver to 192.168.1.22:8001
+12:33:48 INFO  Thread-1 619780 Actor:185 - RealPlayer waiting for connection on port 8501
