@@ -1,131 +1,678 @@
-16:06:14 INFO  main 0 GameClient:100 - client started
-16:06:14 INFO  main 13 GameClient:126 - advisor plugin detected: jenna.client.Advisor
-16:06:14 INFO  main 16 GameClient:131 - loaded advisor successfully
-16:06:16 INFO  AWT-EventQueue-0 2428 ClientAuthenticator:66 - sent login request
-16:06:16 INFO  AWT-EventQueue-0 2471 ClientAuthenticator:73 - received ticket BB20B45FD4D95138
-16:06:16 INFO  AWT-EventQueue-0 2472 GameClient:87 - login successful
-16:06:16 INFO  Thread-2 2482 Actor:185 - Courier waiting for connection on port 8001
-16:06:16 INFO  AWT-EventQueue-0 2499 Actor:185 - Arriver sending Arrival to 127.0.0.1:1235
-16:06:16 INFO  AWT-EventQueue-0 2505 Actor:185 - Arriver sent successfully Arrival to 127.0.0.1:1235
-16:06:16 INFO  AWT-EventQueue-0 2506 Actor:185 - Arriver sent arrival message
-16:06:16 INFO  Thread-2 2565 Actor:185 - Courier accepted connection on port 8001
-16:06:16 INFO  Thread-2 2570 Actor:185 - Courier received message Ready
-16:06:16 INFO  Thread-2 2570 Actor:185 - Courier invoking listener for Ready
-16:06:16 INFO  Thread-2 2572 Courier:234 - received Ready from JennaLaptop/148.100.149.49
-16:06:16 INFO  Thread-2 2573 Actor:185 - Courier waiting for connection on port 8001
-16:06:16 INFO  AWT-EventQueue-0 2573 GameClient:106 - connected to courier with bankroll = 1000.0
-16:06:22 INFO  Thread-4 8558 ATable:204 - side bet = 0
-16:06:22 INFO  Thread-4 8561 Actor:185 - Courier sending Bet to 127.0.0.1:8501
-16:06:22 INFO  Thread-4 8568 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
-16:06:22 INFO  Thread-2 8614 Actor:185 - Courier accepted connection on port 8001
-16:06:22 INFO  Thread-2 8624 Actor:185 - Courier received message GameStart
-16:06:22 INFO  Thread-2 8625 Actor:185 - Courier invoking listener for GameStart
-16:06:22 INFO  Thread-2 8626 Courier:246 - receive starting shoe size = 63
-16:06:22 INFO  Thread-2 8626 Courier:249 - starting hand: JennaLaptop:RIGHT:6418CFFAAD29F218
-16:06:22 INFO  Thread-2 8626 Courier:249 - starting hand: JennaLaptop:YOU:67DAC28B047DE3E0
-16:06:22 INFO  Thread-2 8627 Courier:249 - starting hand: JennaLaptop:LEFT:ED8D83699E8C027
-16:06:22 INFO  Thread-2 8627 Courier:249 - starting hand: JennaLaptop:DEALER:1C3F00F5A508EAAC
-16:06:22 INFO  Thread-2 8630 Actor:185 - Courier waiting for connection on port 8001
-16:06:23 INFO  Thread-2 9636 Actor:185 - Courier accepted connection on port 8001
-16:06:23 INFO  Thread-2 9649 Actor:185 - Courier received message Deal
-16:06:23 INFO  Thread-2 9649 Actor:185 - Courier invoking listener for Deal
-16:06:23 INFO  Thread-2 9657 Courier:268 - received card = SK values = 10/10 hid = JennaLaptop:RIGHT:6418CFFAAD29F218
-16:06:23 INFO  Thread-2 9680 Actor:185 - Courier waiting for connection on port 8001
-16:06:24 INFO  Thread-2 10400 Actor:185 - Courier accepted connection on port 8001
-16:06:24 INFO  Thread-2 10404 Actor:185 - Courier received message Deal
-16:06:24 INFO  Thread-2 10404 Actor:185 - Courier invoking listener for Deal
-16:06:24 INFO  Thread-2 10404 Courier:268 - received card = H10 values = 10/10 hid = JennaLaptop:YOU:67DAC28B047DE3E0
-16:06:24 INFO  Thread-2 10409 Actor:185 - Courier waiting for connection on port 8001
-16:06:25 INFO  Thread-2 11158 Actor:185 - Courier accepted connection on port 8001
-16:06:25 INFO  Thread-2 11162 Actor:185 - Courier received message Deal
-16:06:25 INFO  Thread-2 11162 Actor:185 - Courier invoking listener for Deal
-16:06:25 INFO  Thread-2 11162 Courier:268 - received card = C10 values = 10/10 hid = JennaLaptop:LEFT:ED8D83699E8C027
-16:06:25 INFO  Thread-2 11167 Actor:185 - Courier waiting for connection on port 8001
-16:06:26 INFO  Thread-2 11918 Actor:185 - Courier accepted connection on port 8001
-16:06:26 INFO  Thread-2 11924 Actor:185 - Courier received message Deal
-16:06:26 INFO  Thread-2 11924 Actor:185 - Courier invoking listener for Deal
-16:06:26 INFO  Thread-2 11925 Courier:268 - received card = DK values = 0/0 hid = JennaLaptop:DEALER:1C3F00F5A508EAAC
-16:06:26 INFO  Thread-2 11950 Actor:185 - Courier waiting for connection on port 8001
-16:06:26 INFO  Thread-2 12680 Actor:185 - Courier accepted connection on port 8001
-16:06:26 INFO  Thread-2 12684 Actor:185 - Courier received message Deal
-16:06:26 INFO  Thread-2 12684 Actor:185 - Courier invoking listener for Deal
-16:06:26 INFO  Thread-2 12685 Courier:268 - received card = S6 values = 16/16 hid = JennaLaptop:RIGHT:6418CFFAAD29F218
-16:06:26 INFO  Thread-2 12689 Actor:185 - Courier waiting for connection on port 8001
-16:06:27 INFO  Thread-2 13439 Actor:185 - Courier accepted connection on port 8001
-16:06:27 INFO  Thread-2 13443 Actor:185 - Courier received message Deal
-16:06:27 INFO  Thread-2 13444 Actor:185 - Courier invoking listener for Deal
-16:06:27 INFO  Thread-2 13445 Courier:268 - received card = H5 values = 15/15 hid = JennaLaptop:YOU:67DAC28B047DE3E0
-16:06:27 INFO  Thread-2 13450 Actor:185 - Courier waiting for connection on port 8001
-16:06:28 INFO  Thread-2 14196 Actor:185 - Courier accepted connection on port 8001
-16:06:28 INFO  Thread-2 14200 Actor:185 - Courier received message Deal
-16:06:28 INFO  Thread-2 14200 Actor:185 - Courier invoking listener for Deal
-16:06:28 INFO  Thread-2 14200 Courier:268 - received card = S10 values = 20/20 hid = JennaLaptop:LEFT:ED8D83699E8C027
-16:06:28 INFO  Thread-2 14208 Actor:185 - Courier waiting for connection on port 8001
-16:06:29 INFO  Thread-2 14951 Actor:185 - Courier accepted connection on port 8001
-16:06:29 INFO  Thread-2 14954 Actor:185 - Courier received message Deal
-16:06:29 INFO  Thread-2 14955 Actor:185 - Courier invoking listener for Deal
-16:06:29 INFO  Thread-2 14955 Courier:268 - received card = C7 values = 7/7 hid = JennaLaptop:DEALER:1C3F00F5A508EAAC
-16:06:29 INFO  Thread-2 14959 Actor:185 - Courier waiting for connection on port 8001
-16:06:29 INFO  Thread-2 14961 Actor:185 - Courier accepted connection on port 8001
-16:06:29 INFO  Thread-2 14968 Actor:185 - Courier received message Play
-16:06:29 INFO  Thread-2 14968 Actor:185 - Courier invoking listener for Play
-16:06:29 INFO  Thread-2 14969 Courier:278 - got turn = JennaLaptop:RIGHT:6418CFFAAD29F218
-16:06:29 INFO  Thread-2 15657 Actor:185 - Courier waiting for connection on port 8001
-16:06:31 INFO  Thread-2 17720 Actor:185 - Courier accepted connection on port 8001
-16:06:31 INFO  Thread-2 17724 Actor:185 - Courier received message Deal
-16:06:31 INFO  Thread-2 17725 Actor:185 - Courier invoking listener for Deal
-16:06:31 INFO  Thread-2 17725 Courier:268 - received card = S2 values = 18/18 hid = JennaLaptop:RIGHT:6418CFFAAD29F218
-16:06:31 INFO  Thread-2 17731 Actor:185 - Courier waiting for connection on port 8001
-16:06:34 INFO  Thread-2 20378 Actor:185 - Courier accepted connection on port 8001
-16:06:34 INFO  Thread-2 20380 Actor:185 - Courier received message Play
-16:06:34 INFO  Thread-2 20381 Actor:185 - Courier invoking listener for Play
-16:06:34 INFO  Thread-2 20381 Courier:278 - got turn = JennaLaptop:YOU:67DAC28B047DE3E0
-16:06:35 INFO  Thread-2 21076 Actor:185 - Courier waiting for connection on port 8001
-16:06:59 INFO  AWT-EventQueue-0 44775 Actor:185 - Courier sending Hit to 127.0.0.1:8501
-16:06:59 INFO  AWT-EventQueue-0 44778 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
-16:06:59 INFO  Thread-2 44788 Actor:185 - Courier accepted connection on port 8001
-16:06:59 INFO  Thread-2 44792 Actor:185 - Courier received message Deal
-16:06:59 INFO  Thread-2 44793 Actor:185 - Courier invoking listener for Deal
-16:06:59 INFO  Thread-2 44794 Courier:268 - received card = H4 values = 19/19 hid = JennaLaptop:YOU:67DAC28B047DE3E0
-16:06:59 INFO  Thread-2 44801 Actor:185 - Courier waiting for connection on port 8001
-16:07:00 INFO  AWT-EventQueue-0 45779 Actor:185 - Courier sending Stay to 127.0.0.1:8501
-16:07:00 INFO  AWT-EventQueue-0 45782 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
-16:07:00 INFO  Thread-2 45792 Actor:185 - Courier accepted connection on port 8001
-16:07:00 INFO  Thread-2 45795 Actor:185 - Courier received message Play
-16:07:00 INFO  Thread-2 45795 Actor:185 - Courier invoking listener for Play
-16:07:00 INFO  Thread-2 45796 Courier:278 - got turn = JennaLaptop:LEFT:ED8D83699E8C027
-16:07:00 INFO  Thread-2 46490 Actor:185 - Courier waiting for connection on port 8001
-16:07:02 INFO  Thread-2 48474 Actor:185 - Courier accepted connection on port 8001
-16:07:02 INFO  Thread-2 48481 Actor:185 - Courier received message Play
-16:07:02 INFO  Thread-2 48481 Actor:185 - Courier invoking listener for Play
-16:07:02 INFO  Thread-2 48481 Courier:278 - got turn = JennaLaptop:DEALER:1C3F00F5A508EAAC
-16:07:02 INFO  Thread-2 48482 Actor:185 - Courier waiting for connection on port 8001
-16:07:02 INFO  Thread-2 48484 Actor:185 - Courier accepted connection on port 8001
-16:07:02 INFO  Thread-2 48486 Actor:185 - Courier received message Deal
-16:07:02 INFO  Thread-2 48486 Actor:185 - Courier invoking listener for Deal
-16:07:02 INFO  Thread-2 48486 Courier:268 - received card = null values = 17/17 hid = JennaLaptop:DEALER:1C3F00F5A508EAAC
-16:07:02 INFO  Thread-2 48487 Actor:185 - Courier waiting for connection on port 8001
-16:07:02 INFO  Thread-2 48491 Actor:185 - Courier accepted connection on port 8001
-16:07:02 INFO  Thread-2 48497 Actor:185 - Courier received message Win
-16:07:02 INFO  Thread-2 48498 Actor:185 - Courier invoking listener for Win
-16:07:02 INFO  Thread-2 48498 Courier:209 - received outcome = Win
-16:07:02 INFO  Thread-2 48505 ATable:513 - WIN for hid = JennaLaptop:RIGHT:6418CFFAAD29F218 amt = 5.0
-16:07:02 INFO  Thread-2 48507 Actor:185 - Courier waiting for connection on port 8001
-16:07:02 INFO  Thread-2 48509 Actor:185 - Courier accepted connection on port 8001
-16:07:02 INFO  Thread-2 48511 Actor:185 - Courier received message Win
-16:07:02 INFO  Thread-2 48511 Actor:185 - Courier invoking listener for Win
-16:07:02 INFO  Thread-2 48511 Courier:209 - received outcome = Win
-16:07:02 INFO  Thread-2 48512 ATable:513 - WIN for hid = JennaLaptop:YOU:67DAC28B047DE3E0 amt = 25.0
-16:07:02 INFO  Thread-2 48512 Actor:185 - Courier waiting for connection on port 8001
-16:07:02 INFO  Thread-2 48513 Actor:185 - Courier accepted connection on port 8001
-16:07:02 INFO  Thread-2 48514 Actor:185 - Courier received message Win
-16:07:02 INFO  Thread-2 48515 Actor:185 - Courier invoking listener for Win
-16:07:02 INFO  Thread-2 48515 Courier:209 - received outcome = Win
-16:07:02 INFO  Thread-2 48515 ATable:513 - WIN for hid = JennaLaptop:LEFT:ED8D83699E8C027 amt = 5.0
-16:07:02 INFO  Thread-2 48515 Actor:185 - Courier waiting for connection on port 8001
-16:07:02 INFO  Thread-2 48516 Actor:185 - Courier accepted connection on port 8001
-16:07:02 INFO  Thread-2 48520 Actor:185 - Courier received message GameOver
-16:07:02 INFO  Thread-2 48521 Actor:185 - Courier invoking listener for GameOver
-16:07:02 INFO  Thread-2 48524 Courier:289 - received ending shoe size = 53
-16:07:02 INFO  Thread-2 48528 ATable:685 - num hands = 4 wins = 3 loses = 0 pushes = 0
-16:07:05 INFO  Thread-2 51440 Actor:185 - Courier waiting for connection on port 8001
+15:06:28 INFO  main 0 SideBetView:65 - side bet view constructed
+15:06:28 INFO  main 3 ATable:888 - successfully loaded side bet view
+15:06:28 INFO  main 78 GameClient:100 - client started
+15:06:28 INFO  main 84 GameClient:126 - advisor plugin detected: jenna.client.Advisor
+15:06:28 INFO  main 88 GameClient:131 - loaded advisor successfully
+15:06:41 INFO  AWT-EventQueue-0 12792 ClientAuthenticator:66 - sent login request
+15:06:41 INFO  AWT-EventQueue-0 12829 ClientAuthenticator:73 - received ticket BB20B45FD4D95138
+15:06:41 INFO  AWT-EventQueue-0 12831 GameClient:87 - login successful
+15:06:41 INFO  Thread-2 12836 Actor:185 - Courier waiting for connection on port 8001
+15:06:41 INFO  AWT-EventQueue-0 12844 Actor:185 - Arriver sending Arrival to 127.0.0.1:1235
+15:06:41 INFO  AWT-EventQueue-0 12848 Actor:185 - Arriver sent successfully Arrival to 127.0.0.1:1235
+15:06:41 INFO  AWT-EventQueue-0 12848 Actor:185 - Arriver sent arrival message
+15:06:41 INFO  Thread-2 12910 Actor:185 - Courier accepted connection on port 8001
+15:06:41 INFO  Thread-2 12916 Actor:185 - Courier received message Ready
+15:06:41 INFO  Thread-2 12916 Actor:185 - Courier invoking listener for Ready
+15:06:41 INFO  Thread-2 12918 Courier:234 - received Ready from JennaLaptop/192.168.1.31
+15:06:41 INFO  Thread-2 12918 Actor:185 - Courier waiting for connection on port 8001
+15:06:41 INFO  AWT-EventQueue-0 12919 GameClient:106 - connected to courier with bankroll = 1000.0
+15:06:47 INFO  Thread-4 19054 ATable:204 - side bet = 0
+15:06:47 INFO  Thread-4 19055 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+15:06:47 INFO  Thread-4 19063 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+15:06:47 INFO  Thread-2 19095 Actor:185 - Courier accepted connection on port 8001
+15:06:47 INFO  Thread-2 19103 Actor:185 - Courier received message GameStart
+15:06:47 INFO  Thread-2 19103 Actor:185 - Courier invoking listener for GameStart
+15:06:47 INFO  Thread-2 19103 Courier:246 - receive starting shoe size = 48
+15:06:47 INFO  Thread-2 19103 Courier:249 - starting hand: JennaLaptop:YOU:5266894F42A77B6B
+15:06:47 INFO  Thread-2 19103 Courier:249 - starting hand: JennaLaptop:DEALER:74175E6EA92ADE73
+15:06:47 INFO  Thread-2 19106 Actor:185 - Courier waiting for connection on port 8001
+15:06:48 INFO  Thread-2 20112 Actor:185 - Courier accepted connection on port 8001
+15:06:48 INFO  Thread-2 20122 Actor:185 - Courier received message Deal
+15:06:48 INFO  Thread-2 20124 Actor:185 - Courier invoking listener for Deal
+15:06:48 INFO  Thread-2 20131 Courier:268 - received card = H7 values = 7/7 hid = JennaLaptop:YOU:5266894F42A77B6B
+15:06:48 INFO  Thread-2 20137 Actor:185 - Courier waiting for connection on port 8001
+15:06:49 INFO  Thread-2 20872 Actor:185 - Courier accepted connection on port 8001
+15:06:49 INFO  Thread-2 20879 Actor:185 - Courier received message Deal
+15:06:49 INFO  Thread-2 20879 Actor:185 - Courier invoking listener for Deal
+15:06:49 INFO  Thread-2 20879 Courier:268 - received card = CK values = 0/0 hid = JennaLaptop:DEALER:74175E6EA92ADE73
+15:06:49 INFO  Thread-2 20884 Actor:185 - Courier waiting for connection on port 8001
+15:06:50 INFO  Thread-2 21631 Actor:185 - Courier accepted connection on port 8001
+15:06:50 INFO  Thread-2 21635 Actor:185 - Courier received message Deal
+15:06:50 INFO  Thread-2 21635 Actor:185 - Courier invoking listener for Deal
+15:06:50 INFO  Thread-2 21636 Courier:268 - received card = S9 values = 16/16 hid = JennaLaptop:YOU:5266894F42A77B6B
+15:06:50 INFO  Thread-2 21638 Actor:185 - Courier waiting for connection on port 8001
+15:06:50 INFO  Thread-2 22390 Actor:185 - Courier accepted connection on port 8001
+15:06:50 INFO  Thread-2 22394 Actor:185 - Courier received message Deal
+15:06:50 INFO  Thread-2 22394 Actor:185 - Courier invoking listener for Deal
+15:06:50 INFO  Thread-2 22394 Courier:268 - received card = D9 values = 9/9 hid = JennaLaptop:DEALER:74175E6EA92ADE73
+15:06:50 INFO  Thread-2 22400 Actor:185 - Courier waiting for connection on port 8001
+15:06:50 INFO  Thread-2 22401 Actor:185 - Courier accepted connection on port 8001
+15:06:50 INFO  Thread-2 22404 Actor:185 - Courier received message Play
+15:06:50 INFO  Thread-2 22405 Actor:185 - Courier invoking listener for Play
+15:06:50 INFO  Thread-2 22405 Courier:278 - got turn = JennaLaptop:YOU:5266894F42A77B6B
+15:06:51 INFO  Thread-2 23100 Actor:185 - Courier waiting for connection on port 8001
+15:06:53 INFO  AWT-EventQueue-0 24587 Actor:185 - Courier sending Hit to 127.0.0.1:8501
+15:06:53 INFO  AWT-EventQueue-0 24590 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
+15:06:53 INFO  Thread-2 24597 Actor:185 - Courier accepted connection on port 8001
+15:06:53 INFO  Thread-2 24600 Actor:185 - Courier received message Deal
+15:06:53 INFO  Thread-2 24601 Actor:185 - Courier invoking listener for Deal
+15:06:53 INFO  Thread-2 24601 Courier:268 - received card = C3 values = 19/19 hid = JennaLaptop:YOU:5266894F42A77B6B
+15:06:53 INFO  Thread-2 24603 Actor:185 - Courier waiting for connection on port 8001
+15:06:54 INFO  AWT-EventQueue-0 26030 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+15:06:54 INFO  AWT-EventQueue-0 26033 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+15:06:54 INFO  Thread-2 26037 Actor:185 - Courier accepted connection on port 8001
+15:06:54 INFO  Thread-2 26039 Actor:185 - Courier received message Play
+15:06:54 INFO  Thread-2 26039 Actor:185 - Courier invoking listener for Play
+15:06:54 INFO  Thread-2 26039 Courier:278 - got turn = JennaLaptop:DEALER:74175E6EA92ADE73
+15:06:54 INFO  Thread-2 26039 Actor:185 - Courier waiting for connection on port 8001
+15:06:54 INFO  Thread-2 26040 Actor:185 - Courier accepted connection on port 8001
+15:06:54 INFO  Thread-2 26042 Actor:185 - Courier received message Deal
+15:06:54 INFO  Thread-2 26043 Actor:185 - Courier invoking listener for Deal
+15:06:54 INFO  Thread-2 26043 Courier:268 - received card = null values = 19/19 hid = JennaLaptop:DEALER:74175E6EA92ADE73
+15:06:54 INFO  Thread-2 26043 Actor:185 - Courier waiting for connection on port 8001
+15:06:54 INFO  Thread-2 26043 Actor:185 - Courier accepted connection on port 8001
+15:06:54 INFO  Thread-2 26047 Actor:185 - Courier received message Push
+15:06:54 INFO  Thread-2 26047 Actor:185 - Courier invoking listener for Push
+15:06:54 INFO  Thread-2 26047 Courier:209 - received outcome = Push
+15:06:54 INFO  Thread-2 26050 ATable:565 - PUSH for hid = JennaLaptop:YOU:5266894F42A77B6B amt = 0.0
+15:06:55 INFO  Thread-2 26771 Actor:185 - Courier waiting for connection on port 8001
+15:06:55 INFO  Thread-2 26773 Actor:185 - Courier accepted connection on port 8001
+15:06:55 INFO  Thread-2 26775 Actor:185 - Courier received message GameOver
+15:06:55 INFO  Thread-2 26775 Actor:185 - Courier invoking listener for GameOver
+15:06:55 INFO  Thread-2 26775 Courier:289 - received ending shoe size = 43
+15:06:55 INFO  Thread-2 26780 ATable:685 - num hands = 2 wins = 0 loses = 0 pushes = 1
+15:06:55 INFO  Thread-2 26781 Actor:185 - Courier waiting for connection on port 8001
+15:06:57 INFO  AWT-EventQueue-0 29527 SideBetView:92 - A. side bet amount 5 updated new amt = 5
+15:06:58 INFO  AWT-EventQueue-0 29983 SideBetView:92 - A. side bet amount 5 updated new amt = 10
+15:07:00 INFO  Thread-11 32078 ATable:204 - side bet = 10
+15:07:00 INFO  Thread-11 32080 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+15:07:00 INFO  Thread-11 32083 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+15:07:00 INFO  Thread-2 32087 Actor:185 - Courier accepted connection on port 8001
+15:07:00 INFO  Thread-2 32090 Actor:185 - Courier received message GameStart
+15:07:00 INFO  Thread-2 32090 Actor:185 - Courier invoking listener for GameStart
+15:07:00 INFO  Thread-2 32090 Courier:246 - receive starting shoe size = 43
+15:07:00 INFO  Thread-2 32090 Courier:249 - starting hand: JennaLaptop:YOU:12890F1CFA6E25E0
+15:07:00 INFO  Thread-2 32090 Courier:249 - starting hand: JennaLaptop:DEALER:5DCBA8E317CAD4B1
+15:07:00 INFO  Thread-2 32090 Actor:185 - Courier waiting for connection on port 8001
+15:07:01 INFO  Thread-2 33094 Actor:185 - Courier accepted connection on port 8001
+15:07:01 INFO  Thread-2 33096 Actor:185 - Courier received message Deal
+15:07:01 INFO  Thread-2 33096 Actor:185 - Courier invoking listener for Deal
+15:07:01 INFO  Thread-2 33096 Courier:268 - received card = H7 values = 7/7 hid = JennaLaptop:YOU:12890F1CFA6E25E0
+15:07:01 INFO  Thread-2 33097 Actor:185 - Courier waiting for connection on port 8001
+15:07:02 INFO  Thread-2 33850 Actor:185 - Courier accepted connection on port 8001
+15:07:02 INFO  Thread-2 33852 Actor:185 - Courier received message Deal
+15:07:02 INFO  Thread-2 33853 Actor:185 - Courier invoking listener for Deal
+15:07:02 INFO  Thread-2 33853 Courier:268 - received card = CK values = 0/0 hid = JennaLaptop:DEALER:5DCBA8E317CAD4B1
+15:07:02 INFO  Thread-2 33853 Actor:185 - Courier waiting for connection on port 8001
+15:07:03 INFO  Thread-2 34607 Actor:185 - Courier accepted connection on port 8001
+15:07:03 INFO  Thread-2 34610 Actor:185 - Courier received message Deal
+15:07:03 INFO  Thread-2 34611 Actor:185 - Courier invoking listener for Deal
+15:07:03 INFO  Thread-2 34611 Courier:268 - received card = S9 values = 16/16 hid = JennaLaptop:YOU:12890F1CFA6E25E0
+15:07:03 INFO  Thread-2 34612 Actor:185 - Courier waiting for connection on port 8001
+15:07:03 INFO  Thread-2 35363 Actor:185 - Courier accepted connection on port 8001
+15:07:03 INFO  Thread-2 35365 Actor:185 - Courier received message Deal
+15:07:03 INFO  Thread-2 35366 Actor:185 - Courier invoking listener for Deal
+15:07:03 INFO  Thread-2 35366 Courier:268 - received card = D8 values = 8/8 hid = JennaLaptop:DEALER:5DCBA8E317CAD4B1
+15:07:03 INFO  Thread-2 35369 Actor:185 - Courier waiting for connection on port 8001
+15:07:03 INFO  Thread-2 35370 Actor:185 - Courier accepted connection on port 8001
+15:07:03 INFO  Thread-2 35372 Actor:185 - Courier received message Play
+15:07:03 INFO  Thread-2 35372 Actor:185 - Courier invoking listener for Play
+15:07:03 INFO  Thread-2 35373 Courier:278 - got turn = JennaLaptop:YOU:12890F1CFA6E25E0
+15:07:04 INFO  Thread-2 36066 Actor:185 - Courier waiting for connection on port 8001
+15:07:04 INFO  AWT-EventQueue-0 36430 Actor:185 - Courier sending Hit to 127.0.0.1:8501
+15:07:04 INFO  AWT-EventQueue-0 36432 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
+15:07:04 INFO  Thread-2 36438 Actor:185 - Courier accepted connection on port 8001
+15:07:04 INFO  Thread-2 36440 Actor:185 - Courier received message Deal
+15:07:04 INFO  Thread-2 36440 Actor:185 - Courier invoking listener for Deal
+15:07:04 INFO  Thread-2 36442 Courier:268 - received card = C3 values = 19/19 hid = JennaLaptop:YOU:12890F1CFA6E25E0
+15:07:04 INFO  Thread-2 36442 Actor:185 - Courier waiting for connection on port 8001
+15:07:06 INFO  AWT-EventQueue-0 38229 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+15:07:06 INFO  AWT-EventQueue-0 38233 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+15:07:06 INFO  Thread-2 38238 Actor:185 - Courier accepted connection on port 8001
+15:07:06 INFO  Thread-2 38240 Actor:185 - Courier received message Play
+15:07:06 INFO  Thread-2 38240 Actor:185 - Courier invoking listener for Play
+15:07:06 INFO  Thread-2 38241 Courier:278 - got turn = JennaLaptop:DEALER:5DCBA8E317CAD4B1
+15:07:06 INFO  Thread-2 38242 Actor:185 - Courier waiting for connection on port 8001
+15:07:06 INFO  Thread-2 38245 Actor:185 - Courier accepted connection on port 8001
+15:07:06 INFO  Thread-2 38247 Actor:185 - Courier received message Deal
+15:07:06 INFO  Thread-2 38248 Actor:185 - Courier invoking listener for Deal
+15:07:06 INFO  Thread-2 38248 Courier:268 - received card = null values = 18/18 hid = JennaLaptop:DEALER:5DCBA8E317CAD4B1
+15:07:06 INFO  Thread-2 38249 Actor:185 - Courier waiting for connection on port 8001
+15:07:06 INFO  Thread-2 38250 Actor:185 - Courier accepted connection on port 8001
+15:07:06 INFO  Thread-2 38252 Actor:185 - Courier received message Win
+15:07:06 INFO  Thread-2 38252 Actor:185 - Courier invoking listener for Win
+15:07:06 INFO  Thread-2 38252 Courier:209 - received outcome = Win
+15:07:06 INFO  Thread-2 38254 ATable:513 - WIN for hid = JennaLaptop:YOU:12890F1CFA6E25E0 amt = 25.0
+15:07:06 INFO  Thread-2 38256 SideBetView:113 - side bet outcome = 30.0
+15:07:06 INFO  Thread-2 38256 SideBetView:118 - new bankroll = 1055.0
+15:07:06 INFO  Thread-2 38256 Actor:185 - Courier waiting for connection on port 8001
+15:07:06 INFO  Thread-2 38257 Actor:185 - Courier accepted connection on port 8001
+15:07:06 INFO  Thread-2 38257 Actor:185 - Courier received message GameOver
+15:07:06 INFO  Thread-2 38257 Actor:185 - Courier invoking listener for GameOver
+15:07:06 INFO  Thread-2 38257 Courier:289 - received ending shoe size = 38
+15:07:06 INFO  Thread-2 38257 ATable:685 - num hands = 2 wins = 1 loses = 0 pushes = 0
+15:07:08 INFO  Thread-2 39759 Actor:185 - Courier waiting for connection on port 8001
+15:07:09 INFO  Thread-18 41224 ATable:204 - side bet = 10
+15:07:09 INFO  Thread-18 41224 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+15:07:09 INFO  Thread-18 41227 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+15:07:09 INFO  Thread-2 41233 Actor:185 - Courier accepted connection on port 8001
+15:07:09 INFO  Thread-2 41235 Actor:185 - Courier received message GameStart
+15:07:09 INFO  Thread-2 41235 Actor:185 - Courier invoking listener for GameStart
+15:07:09 INFO  Thread-2 41235 Courier:246 - receive starting shoe size = 38
+15:07:09 INFO  Thread-2 41235 Courier:249 - starting hand: JennaLaptop:YOU:794C4CDB96B8FC91
+15:07:09 INFO  Thread-2 41236 Courier:249 - starting hand: JennaLaptop:DEALER:19D921035E84D75F
+15:07:09 INFO  Thread-2 41236 Actor:185 - Courier waiting for connection on port 8001
+15:07:10 INFO  Thread-2 42240 Actor:185 - Courier accepted connection on port 8001
+15:07:10 INFO  Thread-2 42243 Actor:185 - Courier received message Deal
+15:07:10 INFO  Thread-2 42243 Actor:185 - Courier invoking listener for Deal
+15:07:10 INFO  Thread-2 42243 Courier:268 - received card = H9 values = 9/9 hid = JennaLaptop:YOU:794C4CDB96B8FC91
+15:07:10 INFO  Thread-2 42248 Actor:185 - Courier waiting for connection on port 8001
+15:07:11 INFO  Thread-2 42997 Actor:185 - Courier accepted connection on port 8001
+15:07:11 INFO  Thread-2 42999 Actor:185 - Courier received message Deal
+15:07:11 INFO  Thread-2 42999 Actor:185 - Courier invoking listener for Deal
+15:07:11 INFO  Thread-2 43000 Courier:268 - received card = CK values = 0/0 hid = JennaLaptop:DEALER:19D921035E84D75F
+15:07:11 INFO  Thread-2 43001 Actor:185 - Courier waiting for connection on port 8001
+15:07:12 INFO  Thread-2 43754 Actor:185 - Courier accepted connection on port 8001
+15:07:12 INFO  Thread-2 43757 Actor:185 - Courier received message Deal
+15:07:12 INFO  Thread-2 43757 Actor:185 - Courier invoking listener for Deal
+15:07:12 INFO  Thread-2 43757 Courier:268 - received card = S7 values = 16/16 hid = JennaLaptop:YOU:794C4CDB96B8FC91
+15:07:12 INFO  Thread-2 43760 Actor:185 - Courier waiting for connection on port 8001
+15:07:12 INFO  Thread-2 44511 Actor:185 - Courier accepted connection on port 8001
+15:07:12 INFO  Thread-2 44512 Actor:185 - Courier received message Deal
+15:07:12 INFO  Thread-2 44513 Actor:185 - Courier invoking listener for Deal
+15:07:12 INFO  Thread-2 44513 Courier:268 - received card = D8 values = 8/8 hid = JennaLaptop:DEALER:19D921035E84D75F
+15:07:12 INFO  Thread-2 44514 Actor:185 - Courier waiting for connection on port 8001
+15:07:12 INFO  Thread-2 44516 Actor:185 - Courier accepted connection on port 8001
+15:07:12 INFO  Thread-2 44517 Actor:185 - Courier received message Play
+15:07:12 INFO  Thread-2 44518 Actor:185 - Courier invoking listener for Play
+15:07:12 INFO  Thread-2 44518 Courier:278 - got turn = JennaLaptop:YOU:794C4CDB96B8FC91
+15:07:13 INFO  Thread-2 45211 Actor:185 - Courier waiting for connection on port 8001
+15:07:14 INFO  AWT-EventQueue-0 45831 Actor:185 - Courier sending Hit to 127.0.0.1:8501
+15:07:14 INFO  AWT-EventQueue-0 45833 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
+15:07:14 INFO  Thread-2 45838 Actor:185 - Courier accepted connection on port 8001
+15:07:14 INFO  Thread-2 45840 Actor:185 - Courier received message Deal
+15:07:14 INFO  Thread-2 45840 Actor:185 - Courier invoking listener for Deal
+15:07:14 INFO  Thread-2 45840 Courier:268 - received card = C3 values = 19/19 hid = JennaLaptop:YOU:794C4CDB96B8FC91
+15:07:14 INFO  Thread-2 45840 Actor:185 - Courier waiting for connection on port 8001
+15:07:15 INFO  AWT-EventQueue-0 47064 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+15:07:15 INFO  AWT-EventQueue-0 47067 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+15:07:15 INFO  Thread-2 47073 Actor:185 - Courier accepted connection on port 8001
+15:07:15 INFO  Thread-2 47074 Actor:185 - Courier received message Play
+15:07:15 INFO  Thread-2 47074 Actor:185 - Courier invoking listener for Play
+15:07:15 INFO  Thread-2 47074 Courier:278 - got turn = JennaLaptop:DEALER:19D921035E84D75F
+15:07:15 INFO  Thread-2 47074 Actor:185 - Courier waiting for connection on port 8001
+15:07:15 INFO  Thread-2 47074 Actor:185 - Courier accepted connection on port 8001
+15:07:15 INFO  Thread-2 47076 Actor:185 - Courier received message Deal
+15:07:15 INFO  Thread-2 47076 Actor:185 - Courier invoking listener for Deal
+15:07:15 INFO  Thread-2 47076 Courier:268 - received card = null values = 18/18 hid = JennaLaptop:DEALER:19D921035E84D75F
+15:07:15 INFO  Thread-2 47077 Actor:185 - Courier waiting for connection on port 8001
+15:07:15 INFO  Thread-2 47077 Actor:185 - Courier accepted connection on port 8001
+15:07:15 INFO  Thread-2 47079 Actor:185 - Courier received message Win
+15:07:15 INFO  Thread-2 47080 Actor:185 - Courier invoking listener for Win
+15:07:15 INFO  Thread-2 47080 Courier:209 - received outcome = Win
+15:07:15 INFO  Thread-2 47080 ATable:513 - WIN for hid = JennaLaptop:YOU:794C4CDB96B8FC91 amt = 25.0
+15:07:15 INFO  Thread-2 47080 SideBetView:113 - side bet outcome = -10.0
+15:07:15 INFO  Thread-2 47080 SideBetView:118 - new bankroll = 1070.0
+15:07:15 INFO  Thread-2 47080 Actor:185 - Courier waiting for connection on port 8001
+15:07:15 INFO  Thread-2 47081 Actor:185 - Courier accepted connection on port 8001
+15:07:15 INFO  Thread-2 47082 Actor:185 - Courier received message GameOver
+15:07:15 INFO  Thread-2 47083 Actor:185 - Courier invoking listener for GameOver
+15:07:15 INFO  Thread-2 47083 Courier:289 - received ending shoe size = 33
+15:07:15 INFO  Thread-2 47083 ATable:685 - num hands = 2 wins = 1 loses = 0 pushes = 0
+15:07:17 INFO  Thread-2 48590 Actor:185 - Courier waiting for connection on port 8001
+15:07:19 INFO  Thread-25 51001 ATable:204 - side bet = 10
+15:07:19 INFO  Thread-25 51001 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+15:07:19 INFO  Thread-25 51005 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+15:07:19 INFO  Thread-2 51011 Actor:185 - Courier accepted connection on port 8001
+15:07:19 INFO  Thread-2 51012 Actor:185 - Courier received message GameStart
+15:07:19 INFO  Thread-2 51012 Actor:185 - Courier invoking listener for GameStart
+15:07:19 INFO  Thread-2 51012 Courier:246 - receive starting shoe size = 33
+15:07:19 INFO  Thread-2 51013 Courier:249 - starting hand: JennaLaptop:YOU:3CBE323FF4225177
+15:07:19 INFO  Thread-2 51013 Courier:249 - starting hand: JennaLaptop:DEALER:72D87E52C1D38D51
+15:07:19 INFO  Thread-2 51013 Actor:185 - Courier waiting for connection on port 8001
+15:07:20 INFO  Thread-2 52017 Actor:185 - Courier accepted connection on port 8001
+15:07:20 INFO  Thread-2 52022 Actor:185 - Courier received message Deal
+15:07:20 INFO  Thread-2 52022 Actor:185 - Courier invoking listener for Deal
+15:07:20 INFO  Thread-2 52022 Courier:268 - received card = H7 values = 7/7 hid = JennaLaptop:YOU:3CBE323FF4225177
+15:07:20 INFO  Thread-2 52022 Actor:185 - Courier waiting for connection on port 8001
+15:07:21 INFO  Thread-2 52772 Actor:185 - Courier accepted connection on port 8001
+15:07:21 INFO  Thread-2 52773 Actor:185 - Courier received message Deal
+15:07:21 INFO  Thread-2 52773 Actor:185 - Courier invoking listener for Deal
+15:07:21 INFO  Thread-2 52775 Courier:268 - received card = CK values = 0/0 hid = JennaLaptop:DEALER:72D87E52C1D38D51
+15:07:21 INFO  Thread-2 52775 Actor:185 - Courier waiting for connection on port 8001
+15:07:21 INFO  Thread-2 53529 Actor:185 - Courier accepted connection on port 8001
+15:07:21 INFO  Thread-2 53532 Actor:185 - Courier received message Deal
+15:07:21 INFO  Thread-2 53532 Actor:185 - Courier invoking listener for Deal
+15:07:21 INFO  Thread-2 53532 Courier:268 - received card = S9 values = 16/16 hid = JennaLaptop:YOU:3CBE323FF4225177
+15:07:21 INFO  Thread-2 53533 Actor:185 - Courier waiting for connection on port 8001
+15:07:22 INFO  Thread-2 54284 Actor:185 - Courier accepted connection on port 8001
+15:07:22 INFO  Thread-2 54286 Actor:185 - Courier received message Deal
+15:07:22 INFO  Thread-2 54286 Actor:185 - Courier invoking listener for Deal
+15:07:22 INFO  Thread-2 54287 Courier:268 - received card = D10 values = 10/10 hid = JennaLaptop:DEALER:72D87E52C1D38D51
+15:07:22 INFO  Thread-2 54290 Actor:185 - Courier waiting for connection on port 8001
+15:07:22 INFO  Thread-2 54290 Actor:185 - Courier accepted connection on port 8001
+15:07:22 INFO  Thread-2 54294 Actor:185 - Courier received message Play
+15:07:22 INFO  Thread-2 54294 Actor:185 - Courier invoking listener for Play
+15:07:22 INFO  Thread-2 54294 Courier:278 - got turn = JennaLaptop:YOU:3CBE323FF4225177
+15:07:23 INFO  Thread-2 54983 Actor:185 - Courier waiting for connection on port 8001
+15:07:26 INFO  AWT-EventQueue-0 57920 Actor:185 - Courier sending Hit to 127.0.0.1:8501
+15:07:26 INFO  AWT-EventQueue-0 57923 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
+15:07:26 INFO  Thread-2 57928 Actor:185 - Courier accepted connection on port 8001
+15:07:26 INFO  Thread-2 57930 Actor:185 - Courier received message Deal
+15:07:26 INFO  Thread-2 57931 Actor:185 - Courier invoking listener for Deal
+15:07:26 INFO  Thread-2 57932 Courier:268 - received card = C3 values = 19/19 hid = JennaLaptop:YOU:3CBE323FF4225177
+15:07:26 INFO  Thread-2 57932 Actor:185 - Courier waiting for connection on port 8001
+15:07:27 INFO  AWT-EventQueue-0 59027 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+15:07:27 INFO  AWT-EventQueue-0 59030 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+15:07:27 INFO  Thread-2 59034 Actor:185 - Courier accepted connection on port 8001
+15:07:27 INFO  Thread-2 59035 Actor:185 - Courier received message Play
+15:07:27 INFO  Thread-2 59035 Actor:185 - Courier invoking listener for Play
+15:07:27 INFO  Thread-2 59035 Courier:278 - got turn = JennaLaptop:DEALER:72D87E52C1D38D51
+15:07:27 INFO  Thread-2 59035 Actor:185 - Courier waiting for connection on port 8001
+15:07:27 INFO  Thread-2 59037 Actor:185 - Courier accepted connection on port 8001
+15:07:27 INFO  Thread-2 59039 Actor:185 - Courier received message Deal
+15:07:27 INFO  Thread-2 59039 Actor:185 - Courier invoking listener for Deal
+15:07:27 INFO  Thread-2 59039 Courier:268 - received card = null values = 20/20 hid = JennaLaptop:DEALER:72D87E52C1D38D51
+15:07:27 INFO  Thread-2 59040 Actor:185 - Courier waiting for connection on port 8001
+15:07:27 INFO  Thread-2 59040 Actor:185 - Courier accepted connection on port 8001
+15:07:27 INFO  Thread-2 59044 Actor:185 - Courier received message Lose
+15:07:27 INFO  Thread-2 59044 Actor:185 - Courier invoking listener for Lose
+15:07:27 INFO  Thread-2 59044 Courier:209 - received outcome = Lose
+15:07:27 INFO  Thread-2 59045 ATable:539 - LOSE for hid = JennaLaptop:YOU:3CBE323FF4225177 amt = -25.0
+15:07:27 INFO  Thread-2 59045 SideBetView:113 - side bet outcome = 30.0
+15:07:27 INFO  Thread-2 59045 SideBetView:118 - new bankroll = 1075.0
+15:07:27 INFO  Thread-2 59045 Actor:185 - Courier waiting for connection on port 8001
+15:07:27 INFO  Thread-2 59045 Actor:185 - Courier accepted connection on port 8001
+15:07:27 INFO  Thread-2 59045 Actor:185 - Courier received message GameOver
+15:07:27 INFO  Thread-2 59046 Actor:185 - Courier invoking listener for GameOver
+15:07:27 INFO  Thread-2 59046 Courier:289 - received ending shoe size = 28
+15:07:27 INFO  Thread-2 59046 ATable:685 - num hands = 2 wins = 0 loses = 1 pushes = 0
+15:07:29 INFO  Thread-2 61226 Actor:185 - Courier waiting for connection on port 8001
+15:07:33 INFO  Thread-32 65176 ATable:204 - side bet = 10
+15:07:33 INFO  Thread-32 65176 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+15:07:33 INFO  Thread-32 65179 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+15:07:33 INFO  Thread-2 65186 Actor:185 - Courier accepted connection on port 8001
+15:07:33 INFO  Thread-2 65187 Actor:185 - Courier received message GameStart
+15:07:33 INFO  Thread-2 65187 Actor:185 - Courier invoking listener for GameStart
+15:07:33 INFO  Thread-2 65188 Courier:246 - receive starting shoe size = 28
+15:07:33 INFO  Thread-2 65188 Courier:249 - starting hand: JennaLaptop:YOU:314477DC10B24544
+15:07:33 INFO  Thread-2 65188 Courier:249 - starting hand: JennaLaptop:DEALER:6509E31212E7BE18
+15:07:33 INFO  Thread-2 65188 Actor:185 - Courier waiting for connection on port 8001
+15:07:34 INFO  Thread-2 66193 Actor:185 - Courier accepted connection on port 8001
+15:07:34 INFO  Thread-2 66195 Actor:185 - Courier received message Deal
+15:07:34 INFO  Thread-2 66196 Actor:185 - Courier invoking listener for Deal
+15:07:34 INFO  Thread-2 66196 Courier:268 - received card = H9 values = 9/9 hid = JennaLaptop:YOU:314477DC10B24544
+15:07:34 INFO  Thread-2 66196 Actor:185 - Courier waiting for connection on port 8001
+15:07:35 INFO  Thread-2 66947 Actor:185 - Courier accepted connection on port 8001
+15:07:35 INFO  Thread-2 66948 Actor:185 - Courier received message Deal
+15:07:35 INFO  Thread-2 66948 Actor:185 - Courier invoking listener for Deal
+15:07:35 INFO  Thread-2 66949 Courier:268 - received card = CK values = 0/0 hid = JennaLaptop:DEALER:6509E31212E7BE18
+15:07:35 INFO  Thread-2 66949 Actor:185 - Courier waiting for connection on port 8001
+15:07:36 INFO  Thread-2 67700 Actor:185 - Courier accepted connection on port 8001
+15:07:36 INFO  Thread-2 67702 Actor:185 - Courier received message Deal
+15:07:36 INFO  Thread-2 67702 Actor:185 - Courier invoking listener for Deal
+15:07:36 INFO  Thread-2 67702 Courier:268 - received card = S7 values = 16/16 hid = JennaLaptop:YOU:314477DC10B24544
+15:07:36 INFO  Thread-2 67703 Actor:185 - Courier waiting for connection on port 8001
+15:07:36 INFO  Thread-2 68455 Actor:185 - Courier accepted connection on port 8001
+15:07:36 INFO  Thread-2 68457 Actor:185 - Courier received message Deal
+15:07:36 INFO  Thread-2 68457 Actor:185 - Courier invoking listener for Deal
+15:07:36 INFO  Thread-2 68457 Courier:268 - received card = D10 values = 10/10 hid = JennaLaptop:DEALER:6509E31212E7BE18
+15:07:36 INFO  Thread-2 68458 Actor:185 - Courier waiting for connection on port 8001
+15:07:36 INFO  Thread-2 68458 Actor:185 - Courier accepted connection on port 8001
+15:07:36 INFO  Thread-2 68460 Actor:185 - Courier received message Play
+15:07:36 INFO  Thread-2 68460 Actor:185 - Courier invoking listener for Play
+15:07:36 INFO  Thread-2 68461 Courier:278 - got turn = JennaLaptop:YOU:314477DC10B24544
+15:07:37 INFO  Thread-2 69157 Actor:185 - Courier waiting for connection on port 8001
+15:07:38 INFO  AWT-EventQueue-0 69877 Actor:185 - Courier sending Hit to 127.0.0.1:8501
+15:07:38 INFO  AWT-EventQueue-0 69880 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
+15:07:38 INFO  Thread-2 69886 Actor:185 - Courier accepted connection on port 8001
+15:07:38 INFO  Thread-2 69888 Actor:185 - Courier received message Deal
+15:07:38 INFO  Thread-2 69888 Actor:185 - Courier invoking listener for Deal
+15:07:38 INFO  Thread-2 69888 Courier:268 - received card = C3 values = 19/19 hid = JennaLaptop:YOU:314477DC10B24544
+15:07:38 INFO  Thread-2 69891 Actor:185 - Courier waiting for connection on port 8001
+15:07:39 INFO  AWT-EventQueue-0 71192 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+15:07:39 INFO  AWT-EventQueue-0 71195 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+15:07:39 INFO  Thread-2 71199 Actor:185 - Courier accepted connection on port 8001
+15:07:39 INFO  Thread-2 71200 Actor:185 - Courier received message Play
+15:07:39 INFO  Thread-2 71201 Actor:185 - Courier invoking listener for Play
+15:07:39 INFO  Thread-2 71201 Courier:278 - got turn = JennaLaptop:DEALER:6509E31212E7BE18
+15:07:39 INFO  Thread-2 71201 Actor:185 - Courier waiting for connection on port 8001
+15:07:39 INFO  Thread-2 71201 Actor:185 - Courier accepted connection on port 8001
+15:07:39 INFO  Thread-2 71203 Actor:185 - Courier received message Deal
+15:07:39 INFO  Thread-2 71203 Actor:185 - Courier invoking listener for Deal
+15:07:39 INFO  Thread-2 71203 Courier:268 - received card = null values = 20/20 hid = JennaLaptop:DEALER:6509E31212E7BE18
+15:07:39 INFO  Thread-2 71204 Actor:185 - Courier waiting for connection on port 8001
+15:07:39 INFO  Thread-2 71205 Actor:185 - Courier accepted connection on port 8001
+15:07:39 INFO  Thread-2 71206 Actor:185 - Courier received message Lose
+15:07:39 INFO  Thread-2 71206 Actor:185 - Courier invoking listener for Lose
+15:07:39 INFO  Thread-2 71206 Courier:209 - received outcome = Lose
+15:07:39 INFO  Thread-2 71206 ATable:539 - LOSE for hid = JennaLaptop:YOU:314477DC10B24544 amt = -25.0
+15:07:39 INFO  Thread-2 71207 SideBetView:113 - side bet outcome = -10.0
+15:07:39 INFO  Thread-2 71207 SideBetView:118 - new bankroll = 1040.0
+15:07:39 INFO  Thread-2 71207 Actor:185 - Courier waiting for connection on port 8001
+15:07:39 INFO  Thread-2 71207 Actor:185 - Courier accepted connection on port 8001
+15:07:39 INFO  Thread-2 71208 Actor:185 - Courier received message GameOver
+15:07:39 INFO  Thread-2 71208 Actor:185 - Courier invoking listener for GameOver
+15:07:39 INFO  Thread-2 71208 Courier:289 - received ending shoe size = 23
+15:07:39 INFO  Thread-2 71209 ATable:685 - num hands = 2 wins = 0 loses = 1 pushes = 0
+15:07:41 INFO  Thread-2 73391 Actor:185 - Courier waiting for connection on port 8001
+15:08:09 INFO  Thread-39 100651 ATable:204 - side bet = 10
+15:08:09 INFO  Thread-39 100652 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+15:08:09 INFO  Thread-39 100655 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+15:08:09 INFO  Thread-2 100658 Actor:185 - Courier accepted connection on port 8001
+15:08:09 INFO  Thread-2 100660 Actor:185 - Courier received message GameStart
+15:08:09 INFO  Thread-2 100661 Actor:185 - Courier invoking listener for GameStart
+15:08:09 INFO  Thread-2 100662 Courier:246 - receive starting shoe size = 23
+15:08:09 INFO  Thread-2 100662 Courier:249 - starting hand: JennaLaptop:YOU:6824C17030DE3256
+15:08:09 INFO  Thread-2 100662 Courier:249 - starting hand: JennaLaptop:DEALER:4EA3DCD62BE2F83B
+15:08:09 INFO  Thread-2 100662 Actor:185 - Courier waiting for connection on port 8001
+15:08:10 INFO  Thread-2 101665 Actor:185 - Courier accepted connection on port 8001
+15:08:10 INFO  Thread-2 101667 Actor:185 - Courier received message Deal
+15:08:10 INFO  Thread-2 101667 Actor:185 - Courier invoking listener for Deal
+15:08:10 INFO  Thread-2 101668 Courier:268 - received card = HK values = 10/10 hid = JennaLaptop:YOU:6824C17030DE3256
+15:08:10 INFO  Thread-2 101671 Actor:185 - Courier waiting for connection on port 8001
+15:08:10 INFO  Thread-2 102423 Actor:185 - Courier accepted connection on port 8001
+15:08:10 INFO  Thread-2 102424 Actor:185 - Courier received message Deal
+15:08:10 INFO  Thread-2 102424 Actor:185 - Courier invoking listener for Deal
+15:08:10 INFO  Thread-2 102426 Courier:268 - received card = CK values = 0/0 hid = JennaLaptop:DEALER:4EA3DCD62BE2F83B
+15:08:10 INFO  Thread-2 102426 Actor:185 - Courier waiting for connection on port 8001
+15:08:11 INFO  Thread-2 103177 Actor:185 - Courier accepted connection on port 8001
+15:08:11 INFO  Thread-2 103180 Actor:185 - Courier received message Deal
+15:08:11 INFO  Thread-2 103180 Actor:185 - Courier invoking listener for Deal
+15:08:11 INFO  Thread-2 103181 Courier:268 - received card = HQ values = 20/20 hid = JennaLaptop:YOU:6824C17030DE3256
+15:08:11 INFO  Thread-2 103184 Actor:185 - Courier waiting for connection on port 8001
+15:08:12 INFO  Thread-2 103932 Actor:185 - Courier accepted connection on port 8001
+15:08:12 INFO  Thread-2 103933 Actor:185 - Courier received message Deal
+15:08:12 INFO  Thread-2 103933 Actor:185 - Courier invoking listener for Deal
+15:08:12 INFO  Thread-2 103933 Courier:268 - received card = D8 values = 8/8 hid = JennaLaptop:DEALER:4EA3DCD62BE2F83B
+15:08:12 INFO  Thread-2 103934 Actor:185 - Courier waiting for connection on port 8001
+15:08:12 INFO  Thread-2 103935 Actor:185 - Courier accepted connection on port 8001
+15:08:12 INFO  Thread-2 103937 Actor:185 - Courier received message Play
+15:08:12 INFO  Thread-2 103937 Actor:185 - Courier invoking listener for Play
+15:08:12 INFO  Thread-2 103937 Courier:278 - got turn = JennaLaptop:YOU:6824C17030DE3256
+15:08:13 INFO  Thread-2 104637 Actor:185 - Courier waiting for connection on port 8001
+15:08:13 INFO  AWT-EventQueue-0 105016 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+15:08:13 INFO  AWT-EventQueue-0 105021 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+15:08:13 INFO  Thread-2 105027 Actor:185 - Courier accepted connection on port 8001
+15:08:13 INFO  Thread-2 105028 Actor:185 - Courier received message Play
+15:08:13 INFO  Thread-2 105028 Actor:185 - Courier invoking listener for Play
+15:08:13 INFO  Thread-2 105028 Courier:278 - got turn = JennaLaptop:DEALER:4EA3DCD62BE2F83B
+15:08:13 INFO  Thread-2 105028 Actor:185 - Courier waiting for connection on port 8001
+15:08:13 INFO  Thread-2 105029 Actor:185 - Courier accepted connection on port 8001
+15:08:13 INFO  Thread-2 105031 Actor:185 - Courier received message Deal
+15:08:13 INFO  Thread-2 105032 Actor:185 - Courier invoking listener for Deal
+15:08:13 INFO  Thread-2 105032 Courier:268 - received card = null values = 18/18 hid = JennaLaptop:DEALER:4EA3DCD62BE2F83B
+15:08:13 INFO  Thread-2 105032 Actor:185 - Courier waiting for connection on port 8001
+15:08:13 INFO  Thread-2 105032 Actor:185 - Courier accepted connection on port 8001
+15:08:13 INFO  Thread-2 105033 Actor:185 - Courier received message Win
+15:08:13 INFO  Thread-2 105034 Actor:185 - Courier invoking listener for Win
+15:08:13 INFO  Thread-2 105034 Courier:209 - received outcome = Win
+15:08:13 INFO  Thread-2 105034 ATable:513 - WIN for hid = JennaLaptop:YOU:6824C17030DE3256 amt = 25.0
+15:08:13 INFO  Thread-2 105034 SideBetView:113 - side bet outcome = 250.0
+15:08:13 INFO  Thread-2 105034 SideBetView:118 - new bankroll = 1315.0
+15:08:13 INFO  Thread-2 105035 Actor:185 - Courier waiting for connection on port 8001
+15:08:13 INFO  Thread-2 105036 Actor:185 - Courier accepted connection on port 8001
+15:08:13 INFO  Thread-2 105036 Actor:185 - Courier received message GameOver
+15:08:13 INFO  Thread-2 105036 Actor:185 - Courier invoking listener for GameOver
+15:08:13 INFO  Thread-2 105037 Courier:289 - received ending shoe size = 19
+15:08:13 INFO  Thread-2 105037 ATable:685 - num hands = 2 wins = 1 loses = 0 pushes = 0
+15:08:15 INFO  Thread-2 106705 Actor:185 - Courier waiting for connection on port 8001
+15:08:17 INFO  Thread-45 109138 ATable:204 - side bet = 10
+15:08:17 INFO  Thread-45 109138 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+15:08:17 INFO  Thread-45 109142 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+15:08:17 INFO  Thread-2 109146 Actor:185 - Courier accepted connection on port 8001
+15:08:17 INFO  Thread-2 109147 Actor:185 - Courier received message GameStart
+15:08:17 INFO  Thread-2 109148 Actor:185 - Courier invoking listener for GameStart
+15:08:17 INFO  Thread-2 109148 Courier:246 - receive starting shoe size = 19
+15:08:17 INFO  Thread-2 109148 Courier:249 - starting hand: JennaLaptop:YOU:4B12B8207E54F526
+15:08:17 INFO  Thread-2 109148 Courier:249 - starting hand: JennaLaptop:DEALER:6F72E6C9A0E75497
+15:08:17 INFO  Thread-2 109149 Actor:185 - Courier waiting for connection on port 8001
+15:08:18 INFO  Thread-2 110150 Actor:185 - Courier accepted connection on port 8001
+15:08:18 INFO  Thread-2 110151 Actor:185 - Courier received message Deal
+15:08:18 INFO  Thread-2 110151 Actor:185 - Courier invoking listener for Deal
+15:08:18 INFO  Thread-2 110153 Courier:268 - received card = HK values = 10/10 hid = JennaLaptop:YOU:4B12B8207E54F526
+15:08:18 INFO  Thread-2 110153 Actor:185 - Courier waiting for connection on port 8001
+15:08:19 INFO  Thread-2 110906 Actor:185 - Courier accepted connection on port 8001
+15:08:19 INFO  Thread-2 110907 Actor:185 - Courier received message Deal
+15:08:19 INFO  Thread-2 110907 Actor:185 - Courier invoking listener for Deal
+15:08:19 INFO  Thread-2 110907 Courier:268 - received card = CK values = 0/0 hid = JennaLaptop:DEALER:6F72E6C9A0E75497
+15:08:19 INFO  Thread-2 110908 Actor:185 - Courier waiting for connection on port 8001
+15:08:20 INFO  Thread-2 111662 Actor:185 - Courier accepted connection on port 8001
+15:08:20 INFO  Thread-2 111664 Actor:185 - Courier received message Deal
+15:08:20 INFO  Thread-2 111664 Actor:185 - Courier invoking listener for Deal
+15:08:20 INFO  Thread-2 111664 Courier:268 - received card = SQ values = 20/20 hid = JennaLaptop:YOU:4B12B8207E54F526
+15:08:20 INFO  Thread-2 111686 Actor:185 - Courier waiting for connection on port 8001
+15:08:20 INFO  Thread-2 112418 Actor:185 - Courier accepted connection on port 8001
+15:08:20 INFO  Thread-2 112420 Actor:185 - Courier received message Deal
+15:08:20 INFO  Thread-2 112420 Actor:185 - Courier invoking listener for Deal
+15:08:20 INFO  Thread-2 112420 Courier:268 - received card = D8 values = 8/8 hid = JennaLaptop:DEALER:6F72E6C9A0E75497
+15:08:20 INFO  Thread-2 112421 Actor:185 - Courier waiting for connection on port 8001
+15:08:20 INFO  Thread-2 112423 Actor:185 - Courier accepted connection on port 8001
+15:08:20 INFO  Thread-2 112425 Actor:185 - Courier received message Play
+15:08:20 INFO  Thread-2 112426 Actor:185 - Courier invoking listener for Play
+15:08:20 INFO  Thread-2 112426 Courier:278 - got turn = JennaLaptop:YOU:4B12B8207E54F526
+15:08:21 INFO  Thread-2 113112 Actor:185 - Courier waiting for connection on port 8001
+15:08:22 INFO  AWT-EventQueue-0 113813 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+15:08:22 INFO  AWT-EventQueue-0 113814 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+15:08:22 INFO  Thread-2 113820 Actor:185 - Courier accepted connection on port 8001
+15:08:22 INFO  Thread-2 113822 Actor:185 - Courier received message Play
+15:08:22 INFO  Thread-2 113822 Actor:185 - Courier invoking listener for Play
+15:08:22 INFO  Thread-2 113822 Courier:278 - got turn = JennaLaptop:DEALER:6F72E6C9A0E75497
+15:08:22 INFO  Thread-2 113822 Actor:185 - Courier waiting for connection on port 8001
+15:08:22 INFO  Thread-2 113823 Actor:185 - Courier accepted connection on port 8001
+15:08:22 INFO  Thread-2 113824 Actor:185 - Courier received message Deal
+15:08:22 INFO  Thread-2 113824 Actor:185 - Courier invoking listener for Deal
+15:08:22 INFO  Thread-2 113824 Courier:268 - received card = null values = 18/18 hid = JennaLaptop:DEALER:6F72E6C9A0E75497
+15:08:22 INFO  Thread-2 113824 Actor:185 - Courier waiting for connection on port 8001
+15:08:22 INFO  Thread-2 113824 Actor:185 - Courier accepted connection on port 8001
+15:08:22 INFO  Thread-2 113825 Actor:185 - Courier received message Win
+15:08:22 INFO  Thread-2 113825 Actor:185 - Courier invoking listener for Win
+15:08:22 INFO  Thread-2 113825 Courier:209 - received outcome = Win
+15:08:22 INFO  Thread-2 113825 ATable:513 - WIN for hid = JennaLaptop:YOU:4B12B8207E54F526 amt = 25.0
+15:08:22 INFO  Thread-2 113825 SideBetView:113 - side bet outcome = -10.0
+15:08:22 INFO  Thread-2 113825 SideBetView:118 - new bankroll = 1330.0
+15:08:22 INFO  Thread-2 113826 Actor:185 - Courier waiting for connection on port 8001
+15:08:22 INFO  Thread-2 113827 Actor:185 - Courier accepted connection on port 8001
+15:08:22 INFO  Thread-2 113827 Actor:185 - Courier received message GameOver
+15:08:22 INFO  Thread-2 113827 Actor:185 - Courier invoking listener for GameOver
+15:08:22 INFO  Thread-2 113827 Courier:289 - received ending shoe size = 15
+15:08:22 INFO  Thread-2 113827 ATable:685 - num hands = 2 wins = 1 loses = 0 pushes = 0
+15:08:25 INFO  Thread-2 116763 Actor:185 - Courier waiting for connection on port 8001
+15:08:26 INFO  Thread-51 118196 ATable:204 - side bet = 10
+15:08:26 INFO  Thread-51 118198 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+15:08:26 INFO  Thread-51 118199 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+15:08:26 INFO  Thread-2 118202 Actor:185 - Courier accepted connection on port 8001
+15:08:26 INFO  Thread-2 118204 Actor:185 - Courier received message GameStart
+15:08:26 INFO  Thread-2 118205 Actor:185 - Courier invoking listener for GameStart
+15:08:26 INFO  Thread-2 118205 Courier:246 - receive starting shoe size = 15
+15:08:26 INFO  Thread-2 118205 Courier:249 - starting hand: JennaLaptop:YOU:39614F889A5667FE
+15:08:26 INFO  Thread-2 118205 Courier:249 - starting hand: JennaLaptop:DEALER:57532B956C7578CE
+15:08:26 INFO  Thread-2 118205 Actor:185 - Courier waiting for connection on port 8001
+15:08:27 INFO  Thread-2 119207 Actor:185 - Courier accepted connection on port 8001
+15:08:27 INFO  Thread-2 119209 Actor:185 - Courier received message Deal
+15:08:27 INFO  Thread-2 119209 Actor:185 - Courier invoking listener for Deal
+15:08:27 INFO  Thread-2 119210 Courier:268 - received card = H8 values = 8/8 hid = JennaLaptop:YOU:39614F889A5667FE
+15:08:27 INFO  Thread-2 119214 Actor:185 - Courier waiting for connection on port 8001
+15:08:28 INFO  Thread-2 119962 Actor:185 - Courier accepted connection on port 8001
+15:08:28 INFO  Thread-2 119963 Actor:185 - Courier received message Deal
+15:08:28 INFO  Thread-2 119963 Actor:185 - Courier invoking listener for Deal
+15:08:28 INFO  Thread-2 119964 Courier:268 - received card = CK values = 0/0 hid = JennaLaptop:DEALER:57532B956C7578CE
+15:08:28 INFO  Thread-2 119964 Actor:185 - Courier waiting for connection on port 8001
+15:08:29 INFO  Thread-2 120716 Actor:185 - Courier accepted connection on port 8001
+15:08:29 INFO  Thread-2 120717 Actor:185 - Courier received message Deal
+15:08:29 INFO  Thread-2 120717 Actor:185 - Courier invoking listener for Deal
+15:08:29 INFO  Thread-2 120717 Courier:268 - received card = S5 values = 13/13 hid = JennaLaptop:YOU:39614F889A5667FE
+15:08:29 INFO  Thread-2 120720 Actor:185 - Courier waiting for connection on port 8001
+15:08:29 INFO  Thread-2 121472 Actor:185 - Courier accepted connection on port 8001
+15:08:29 INFO  Thread-2 121473 Actor:185 - Courier received message Deal
+15:08:29 INFO  Thread-2 121473 Actor:185 - Courier invoking listener for Deal
+15:08:29 INFO  Thread-2 121473 Courier:268 - received card = D6 values = 6/6 hid = JennaLaptop:DEALER:57532B956C7578CE
+15:08:29 INFO  Thread-2 121477 Actor:185 - Courier waiting for connection on port 8001
+15:08:29 INFO  Thread-2 121477 Actor:185 - Courier accepted connection on port 8001
+15:08:29 INFO  Thread-2 121477 Actor:185 - Courier received message Play
+15:08:29 INFO  Thread-2 121478 Actor:185 - Courier invoking listener for Play
+15:08:29 INFO  Thread-2 121478 Courier:278 - got turn = JennaLaptop:YOU:39614F889A5667FE
+15:08:30 INFO  Thread-2 122170 Actor:185 - Courier waiting for connection on port 8001
+15:08:33 INFO  AWT-EventQueue-0 124696 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+15:08:33 INFO  AWT-EventQueue-0 124698 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+15:08:33 INFO  Thread-2 124703 Actor:185 - Courier accepted connection on port 8001
+15:08:33 INFO  Thread-2 124704 Actor:185 - Courier received message Play
+15:08:33 INFO  Thread-2 124704 Actor:185 - Courier invoking listener for Play
+15:08:33 INFO  Thread-2 124704 Courier:278 - got turn = JennaLaptop:DEALER:57532B956C7578CE
+15:08:33 INFO  Thread-2 124704 Actor:185 - Courier waiting for connection on port 8001
+15:08:33 INFO  Thread-2 124707 Actor:185 - Courier accepted connection on port 8001
+15:08:33 INFO  Thread-2 124708 Actor:185 - Courier received message Deal
+15:08:33 INFO  Thread-2 124708 Actor:185 - Courier invoking listener for Deal
+15:08:33 INFO  Thread-2 124708 Courier:268 - received card = null values = 16/16 hid = JennaLaptop:DEALER:57532B956C7578CE
+15:08:33 INFO  Thread-2 124708 Actor:185 - Courier waiting for connection on port 8001
+15:08:33 INFO  Thread-2 125459 Actor:185 - Courier accepted connection on port 8001
+15:08:33 INFO  Thread-2 125461 Actor:185 - Courier received message Deal
+15:08:33 INFO  Thread-2 125461 Actor:185 - Courier invoking listener for Deal
+15:08:33 INFO  Thread-2 125462 Courier:268 - received card = CK values = 26/26 hid = JennaLaptop:DEALER:57532B956C7578CE
+15:08:33 INFO  Thread-2 125462 Actor:185 - Courier waiting for connection on port 8001
+15:08:33 INFO  Thread-2 125462 Actor:185 - Courier accepted connection on port 8001
+15:08:33 INFO  Thread-2 125464 Actor:185 - Courier received message Win
+15:08:33 INFO  Thread-2 125464 Actor:185 - Courier invoking listener for Win
+15:08:33 INFO  Thread-2 125464 Courier:209 - received outcome = Win
+15:08:33 INFO  Thread-2 125464 ATable:513 - WIN for hid = JennaLaptop:YOU:39614F889A5667FE amt = 25.0
+15:08:33 INFO  Thread-2 125464 SideBetView:113 - side bet outcome = 10.0
+15:08:33 INFO  Thread-2 125464 SideBetView:118 - new bankroll = 1365.0
+15:08:33 INFO  Thread-2 125464 Actor:185 - Courier waiting for connection on port 8001
+15:08:33 INFO  Thread-2 125465 Actor:185 - Courier accepted connection on port 8001
+15:08:33 INFO  Thread-2 125465 Actor:185 - Courier received message GameOver
+15:08:33 INFO  Thread-2 125465 Actor:185 - Courier invoking listener for GameOver
+15:08:33 INFO  Thread-2 125465 Courier:289 - received ending shoe size = 10
+15:08:33 INFO  Thread-2 125466 ATable:685 - num hands = 2 wins = 1 loses = 0 pushes = 0
+15:08:36 INFO  Thread-2 128214 Actor:185 - Courier waiting for connection on port 8001
+15:08:40 INFO  Thread-58 131970 ATable:204 - side bet = 10
+15:08:40 INFO  Thread-58 131971 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+15:08:40 INFO  Thread-58 131972 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+15:08:40 INFO  Thread-2 131977 Actor:185 - Courier accepted connection on port 8001
+15:08:40 INFO  Thread-2 131978 Actor:185 - Courier received message GameStart
+15:08:40 INFO  Thread-2 131978 Actor:185 - Courier invoking listener for GameStart
+15:08:40 INFO  Thread-2 131978 Courier:246 - receive starting shoe size = 10
+15:08:40 INFO  Thread-2 131978 Courier:249 - starting hand: JennaLaptop:YOU:7B8730B7D9648245
+15:08:40 INFO  Thread-2 131978 Courier:249 - starting hand: JennaLaptop:DEALER:532F252D4B4FE6B3
+15:08:40 INFO  Thread-2 131978 Actor:185 - Courier waiting for connection on port 8001
+15:08:41 INFO  Thread-2 132981 Actor:185 - Courier accepted connection on port 8001
+15:08:41 INFO  Thread-2 132981 Actor:185 - Courier received message Deal
+15:08:41 INFO  Thread-2 132983 Actor:185 - Courier invoking listener for Deal
+15:08:41 INFO  Thread-2 132983 Courier:268 - received card = H7 values = 7/7 hid = JennaLaptop:YOU:7B8730B7D9648245
+15:08:41 INFO  Thread-2 132983 Actor:185 - Courier waiting for connection on port 8001
+15:08:42 INFO  Thread-2 133735 Actor:185 - Courier accepted connection on port 8001
+15:08:42 INFO  Thread-2 133736 Actor:185 - Courier received message Deal
+15:08:42 INFO  Thread-2 133736 Actor:185 - Courier invoking listener for Deal
+15:08:42 INFO  Thread-2 133736 Courier:268 - received card = CK values = 0/0 hid = JennaLaptop:DEALER:532F252D4B4FE6B3
+15:08:42 INFO  Thread-2 133736 Actor:185 - Courier waiting for connection on port 8001
+15:08:42 INFO  Thread-2 134489 Actor:185 - Courier accepted connection on port 8001
+15:08:42 INFO  Thread-2 134490 Actor:185 - Courier received message Deal
+15:08:42 INFO  Thread-2 134490 Actor:185 - Courier invoking listener for Deal
+15:08:42 INFO  Thread-2 134490 Courier:268 - received card = S6 values = 13/13 hid = JennaLaptop:YOU:7B8730B7D9648245
+15:08:42 INFO  Thread-2 134513 Actor:185 - Courier waiting for connection on port 8001
+15:08:43 INFO  Thread-2 135243 Actor:185 - Courier accepted connection on port 8001
+15:08:43 INFO  Thread-2 135244 Actor:185 - Courier received message Deal
+15:08:43 INFO  Thread-2 135244 Actor:185 - Courier invoking listener for Deal
+15:08:43 INFO  Thread-2 135244 Courier:268 - received card = D6 values = 6/6 hid = JennaLaptop:DEALER:532F252D4B4FE6B3
+15:08:43 INFO  Thread-2 135246 Actor:185 - Courier waiting for connection on port 8001
+15:08:43 INFO  Thread-2 135247 Actor:185 - Courier accepted connection on port 8001
+15:08:43 INFO  Thread-2 135247 Actor:185 - Courier received message Play
+15:08:43 INFO  Thread-2 135247 Actor:185 - Courier invoking listener for Play
+15:08:43 INFO  Thread-2 135247 Courier:278 - got turn = JennaLaptop:YOU:7B8730B7D9648245
+15:08:44 INFO  Thread-2 135947 Actor:185 - Courier waiting for connection on port 8001
+15:08:45 INFO  AWT-EventQueue-0 137451 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+15:08:45 INFO  AWT-EventQueue-0 137454 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+15:08:45 INFO  Thread-2 137459 Actor:185 - Courier accepted connection on port 8001
+15:08:45 INFO  Thread-2 137461 Actor:185 - Courier received message Play
+15:08:45 INFO  Thread-2 137462 Actor:185 - Courier invoking listener for Play
+15:08:45 INFO  Thread-2 137462 Courier:278 - got turn = JennaLaptop:DEALER:532F252D4B4FE6B3
+15:08:45 INFO  Thread-2 137462 Actor:185 - Courier waiting for connection on port 8001
+15:08:45 INFO  Thread-2 137462 Actor:185 - Courier accepted connection on port 8001
+15:08:45 INFO  Thread-2 137463 Actor:185 - Courier received message Deal
+15:08:45 INFO  Thread-2 137463 Actor:185 - Courier invoking listener for Deal
+15:08:45 INFO  Thread-2 137463 Courier:268 - received card = null values = 16/16 hid = JennaLaptop:DEALER:532F252D4B4FE6B3
+15:08:45 INFO  Thread-2 137465 Actor:185 - Courier waiting for connection on port 8001
+15:08:46 INFO  Thread-2 138217 Actor:185 - Courier accepted connection on port 8001
+15:08:46 INFO  Thread-2 138217 Actor:185 - Courier received message Deal
+15:08:46 INFO  Thread-2 138217 Actor:185 - Courier invoking listener for Deal
+15:08:46 INFO  Thread-2 138218 Courier:268 - received card = CK values = 26/26 hid = JennaLaptop:DEALER:532F252D4B4FE6B3
+15:08:46 INFO  Thread-2 138218 Actor:185 - Courier waiting for connection on port 8001
+15:08:46 INFO  Thread-2 138218 Actor:185 - Courier accepted connection on port 8001
+15:08:46 INFO  Thread-2 138220 Actor:185 - Courier received message Win
+15:08:46 INFO  Thread-2 138220 Actor:185 - Courier invoking listener for Win
+15:08:46 INFO  Thread-2 138220 Courier:209 - received outcome = Win
+15:08:46 INFO  Thread-2 138220 ATable:513 - WIN for hid = JennaLaptop:YOU:7B8730B7D9648245 amt = 25.0
+15:08:46 INFO  Thread-2 138220 SideBetView:113 - side bet outcome = 30.0
+15:08:46 INFO  Thread-2 138220 SideBetView:118 - new bankroll = 1420.0
+15:08:46 INFO  Thread-2 138221 Actor:185 - Courier waiting for connection on port 8001
+15:08:46 INFO  Thread-2 138221 Actor:185 - Courier accepted connection on port 8001
+15:08:46 INFO  Thread-2 138221 Actor:185 - Courier received message GameOver
+15:08:46 INFO  Thread-2 138221 Actor:185 - Courier invoking listener for GameOver
+15:08:46 INFO  Thread-2 138221 Courier:289 - received ending shoe size = 5
+15:08:46 INFO  Thread-2 138222 ATable:685 - num hands = 2 wins = 1 loses = 0 pushes = 0
+15:08:49 INFO  Thread-2 140980 Actor:185 - Courier waiting for connection on port 8001
+15:08:51 INFO  Thread-65 142845 ATable:204 - side bet = 10
+15:08:51 INFO  Thread-65 142846 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+15:08:51 INFO  Thread-65 142848 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+15:08:51 INFO  Thread-2 142851 Actor:185 - Courier accepted connection on port 8001
+15:08:51 INFO  Thread-2 142853 Actor:185 - Courier received message GameStart
+15:08:51 INFO  Thread-2 142853 Actor:185 - Courier invoking listener for GameStart
+15:08:51 INFO  Thread-2 142853 Courier:246 - receive starting shoe size = 5
+15:08:51 INFO  Thread-2 142853 Courier:249 - starting hand: JennaLaptop:YOU:76A63F951ED4F199
+15:08:51 INFO  Thread-2 142853 Courier:249 - starting hand: JennaLaptop:DEALER:7C861BCDF8A02FE2
+15:08:51 INFO  Thread-2 142853 Actor:185 - Courier waiting for connection on port 8001
+15:08:52 INFO  Thread-2 143858 Actor:185 - Courier accepted connection on port 8001
+15:08:52 INFO  Thread-2 143860 Actor:185 - Courier received message Deal
+15:08:52 INFO  Thread-2 143860 Actor:185 - Courier invoking listener for Deal
+15:08:52 INFO  Thread-2 143860 Courier:268 - received card = H6 values = 6/6 hid = JennaLaptop:YOU:76A63F951ED4F199
+15:08:52 INFO  Thread-2 143884 Actor:185 - Courier waiting for connection on port 8001
+15:08:53 INFO  Thread-2 144614 Actor:185 - Courier accepted connection on port 8001
+15:08:53 INFO  Thread-2 144615 Actor:185 - Courier received message Deal
+15:08:53 INFO  Thread-2 144615 Actor:185 - Courier invoking listener for Deal
+15:08:53 INFO  Thread-2 144615 Courier:268 - received card = CK values = 0/0 hid = JennaLaptop:DEALER:7C861BCDF8A02FE2
+15:08:53 INFO  Thread-2 144616 Actor:185 - Courier waiting for connection on port 8001
+15:08:53 INFO  Thread-2 145369 Actor:185 - Courier accepted connection on port 8001
+15:08:53 INFO  Thread-2 145372 Actor:185 - Courier received message Deal
+15:08:53 INFO  Thread-2 145372 Actor:185 - Courier invoking listener for Deal
+15:08:53 INFO  Thread-2 145372 Courier:268 - received card = S8 values = 14/14 hid = JennaLaptop:YOU:76A63F951ED4F199
+15:08:53 INFO  Thread-2 145376 Actor:185 - Courier waiting for connection on port 8001
+15:08:54 INFO  Thread-2 146124 Actor:185 - Courier accepted connection on port 8001
+15:08:54 INFO  Thread-2 146125 Actor:185 - Courier received message Deal
+15:08:54 INFO  Thread-2 146125 Actor:185 - Courier invoking listener for Deal
+15:08:54 INFO  Thread-2 146126 Courier:268 - received card = D6 values = 6/6 hid = JennaLaptop:DEALER:7C861BCDF8A02FE2
+15:08:54 INFO  Thread-2 146127 Actor:185 - Courier waiting for connection on port 8001
+15:08:54 INFO  Thread-2 146127 Actor:185 - Courier accepted connection on port 8001
+15:08:54 INFO  Thread-2 146128 Actor:185 - Courier received message Play
+15:08:54 INFO  Thread-2 146128 Actor:185 - Courier invoking listener for Play
+15:08:54 INFO  Thread-2 146128 Courier:278 - got turn = JennaLaptop:YOU:76A63F951ED4F199
+15:08:55 INFO  Thread-2 146822 Actor:185 - Courier waiting for connection on port 8001
+15:08:57 INFO  AWT-EventQueue-0 148733 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+15:08:57 INFO  AWT-EventQueue-0 148735 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+15:08:57 INFO  Thread-2 148741 Actor:185 - Courier accepted connection on port 8001
+15:08:57 INFO  Thread-2 148743 Actor:185 - Courier received message Play
+15:08:57 INFO  Thread-2 148743 Actor:185 - Courier invoking listener for Play
+15:08:57 INFO  Thread-2 148743 Courier:278 - got turn = JennaLaptop:DEALER:7C861BCDF8A02FE2
+15:08:57 INFO  Thread-2 148743 Actor:185 - Courier waiting for connection on port 8001
+15:08:57 INFO  Thread-2 148744 Actor:185 - Courier accepted connection on port 8001
+15:08:57 INFO  Thread-2 148746 Actor:185 - Courier received message Deal
+15:08:57 INFO  Thread-2 148746 Actor:185 - Courier invoking listener for Deal
+15:08:57 INFO  Thread-2 148746 Courier:268 - received card = null values = 16/16 hid = JennaLaptop:DEALER:7C861BCDF8A02FE2
+15:08:57 INFO  Thread-2 148746 Actor:185 - Courier waiting for connection on port 8001
+15:08:57 INFO  Thread-2 149498 Actor:185 - Courier accepted connection on port 8001
+15:08:57 INFO  Thread-2 149500 Actor:185 - Courier received message Deal
+15:08:57 INFO  Thread-2 149500 Actor:185 - Courier invoking listener for Deal
+15:08:57 INFO  Thread-2 149500 Courier:268 - received card = CK values = 26/26 hid = JennaLaptop:DEALER:7C861BCDF8A02FE2
+15:08:57 INFO  Thread-2 149501 Actor:185 - Courier waiting for connection on port 8001
+15:08:57 INFO  Thread-2 149502 Actor:185 - Courier accepted connection on port 8001
+15:08:57 INFO  Thread-2 149503 Actor:185 - Courier received message Win
+15:08:57 INFO  Thread-2 149504 Actor:185 - Courier invoking listener for Win
+15:08:57 INFO  Thread-2 149504 Courier:209 - received outcome = Win
+15:08:57 INFO  Thread-2 149504 ATable:513 - WIN for hid = JennaLaptop:YOU:76A63F951ED4F199 amt = 25.0
+15:08:57 INFO  Thread-2 149504 SideBetView:113 - side bet outcome = -10.0
+15:08:57 INFO  Thread-2 149504 SideBetView:118 - new bankroll = 1435.0
+15:08:57 INFO  Thread-2 149504 Actor:185 - Courier waiting for connection on port 8001
+15:08:57 INFO  Thread-2 149505 Actor:185 - Courier accepted connection on port 8001
+15:08:57 INFO  Thread-2 149505 Actor:185 - Courier received message GameOver
+15:08:57 INFO  Thread-2 149505 Actor:185 - Courier invoking listener for GameOver
+15:08:57 INFO  Thread-2 149506 Courier:289 - received ending shoe size = 0
+15:08:57 INFO  Thread-2 149506 ATable:685 - num hands = 2 wins = 1 loses = 0 pushes = 0
+15:08:59 INFO  Thread-2 151359 Actor:185 - Courier waiting for connection on port 8001
